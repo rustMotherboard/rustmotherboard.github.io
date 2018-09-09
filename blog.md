@@ -16,6 +16,9 @@ as i'm typing this entry in atom, it appears that my internet **went down** with
 
 well, i guess i can just, go and type whatever i want for a few hours? not gonna lie, that'll just be a bunch of me ranting about crap. seriously, have you guys ever *seen* what i can do sometimes? i even made an n++ level that has like 2 rotating lasers in it and only me and one other guy managed to beat it. i suspected that he looked at the replay. you always think they're gonna do it different, but nope they do it almost exactly as you do
 
+##### 10:32 AM
+do we have a table of contents feature available or is that what those blue link things on all my headers are for?
+
 ___
 
 [back](https://rustyjs.github.io/index)
