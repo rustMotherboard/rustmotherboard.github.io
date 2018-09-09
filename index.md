@@ -3,6 +3,8 @@ home | [changelog](https://rustyjs.github.io/changelog) | [blog](https://rustyjs
 # home
 welcome to my personal site! after many jekyll themes, i've decided to *not* have one. it's just too confusing.
 
+**latest blog post**: september 9th, 2018 - 10:33 AM
+
 ## contacts
 [discord server](http://discord.gg/EUdN3Xu)
 

@@ -19,6 +19,18 @@ well, i guess i can just, go and type whatever i want for a few hours? not gonna
 ##### 10:32 AM
 do we have a table of contents feature available or is that what those blue link things on all my headers are for?
 
+##### 10:33 AM
+forgot to mention that i finally got that dark theme browser extension, so my website is now in beautiful dark colors! that's, like, cool and stuff.
+
+moving on, it's more or less that the internet will probably be back up by when the clock hits PM. i dont know what *pm* actually stands for but i'm having my thoughts it's any of these options
+
+* past morning
+* past morning
+* pre-morning just kidding it's past morning
+* **past morning**
+
+if i ramble on for too long i'll have it so that all my paragraphs are sliced per 30 mins, so the next sorta heading will arrive to this `blog.md` document at 1:03 PM or something
+
 ___
 
 [back](https://rustyjs.github.io/index)
