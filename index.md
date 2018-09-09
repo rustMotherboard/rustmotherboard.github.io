@@ -3,7 +3,7 @@ home | [changelog](https://rustyjs.github.io/changelog) | [blog](https://rustyjs
 # home
 welcome to my personal site! after many jekyll themes, i've decided to *not* have a theme for the site. it's just too confusing. just use like, some stylus theme or a browser extension that makes sites dark (dark reader confirmed works for this site no worries)
 
-**latest blog post**: september 9th, 2018 - 11:16 AM
+**latest blog post**: [september 9th, 2018 - 11:16 AM](https://rustyjs.github.io/archive/2018/09)
 
 ## contacts
 [discord server](http://discord.gg/EUdN3Xu)
