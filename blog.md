@@ -60,7 +60,19 @@ needless to say x2 combo except it's not a combo they were 5 lines away from eac
 * 3rd place: nutball (was blinking in and out)
 * 4th place: that other guy (same as nutball, but more severe and was booted out by rabb.it much more often)
 
-needless to say, we all liked the movie. here's my review coming right atcha in the next header
+needless to say, we all liked the movie. here's my review coming right atcha in the next header like kirby back atcha
+
+##### 11:00 AM
+movie review 001
+**title**: khonjin house: the movie
+**runtime**: ~1:15:00
+**plot**: who the fuck talks about a plot in **khonjin house** smh
+
+**the review**: nice shitpost
+
+**rating**: 5 pepperoni pizzas out of 5
+
+anyways im gonna go and probably add a new page here or something for the site itself
 
 ___
 
