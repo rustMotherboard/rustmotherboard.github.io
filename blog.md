@@ -31,6 +31,11 @@ moving on, it's more or less that the internet will probably be back up by when 
 
 if i ramble on for too long i'll have it so that all my paragraphs are sliced per 30 mins, so the next sorta heading will arrive to this `blog.md` document at 1:03 PM or something
 
+##### 10:38 AM
+so i've added a new images folder, i'll probably be posting imagery soon, that is! problem is that first i have to upload the image here, use some `.md` supported format, and i have no idea if it's *actually* going to work all at once. i'm saying we have a 50/50 chance over here.
+
+i'm gonna go get something to eat i was drinking pepsi brand root beer for a while
+
 ___
 
 [back](https://rustyjs.github.io/index)
