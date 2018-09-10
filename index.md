@@ -6,11 +6,11 @@ welcome to my personal site! after many jekyll themes, i've decided to *not* hav
 ##latest blog post
 **september, 2018**
 
-day 10 | green village thing state
+day 10 | wise, clean, and grey-rific green relief hour rituals
 
-12:32 PM
+8:12 PM
 
-[read here!](https://rustyjs.github.io/archive/2018/09#1232-pm)
+[read here!](https://rustyjs.github.io/archive/2018/09#812-pm)
 
 ## contact
 [discord server](http://discord.gg/EUdN3Xu)
