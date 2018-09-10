@@ -3,12 +3,10 @@ home | [changelog](https://rustyjs.github.io/changelog) | [blog](https://rustyjs
 # home
 welcome to my personal site! after many jekyll themes, i've decided to *not* have a theme for the site. it's just too confusing. just use like, some stylus theme or a browser extension that makes sites dark (dark reader confirmed works for this site no worries)
 
-##latest blog post
+## latest blog post
 **september, 2018**
 
-day 10 | wise, clean, and grey-rific green relief hour rituals
-
-8:12 PM
+day 10 | wise, clean, and grey-rific green relief hour rituals | 8:12 PM
 
 [read here!](https://rustyjs.github.io/archive/2018/09#812-pm)
 
