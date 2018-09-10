@@ -3,9 +3,16 @@ home | [changelog](https://rustyjs.github.io/changelog) | [blog](https://rustyjs
 # home
 welcome to my personal site! after many jekyll themes, i've decided to *not* have a theme for the site. it's just too confusing. just use like, some stylus theme or a browser extension that makes sites dark (dark reader confirmed works for this site no worries)
 
-**latest blog post**: [september 9th, 2018 - 10:31 PM](https://rustyjs.github.io/archive/2018/09#1031-pm)
+##latest blog post
+**september, 2018**
 
-## contacts
+day 10 | green village thing state
+
+12:32 PM
+
+[read here!](https://rustyjs.github.io/archive/2018/09#1232-pm)
+
+## contact
 [discord server](http://discord.gg/EUdN3Xu)
 
 [youtube](https://www.youtube.com/channel/UCsIo5NUwh_LsvnfE7OwKCmg)
