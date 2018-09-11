@@ -1,0 +1,78 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:700');
+
+/* format text input boxes */
+input {
+    font: 14px 'Noto Sans';
+    border: 2px solid #444;
+    color: #eee;
+    background: #222;
+    border-radius: 0px;
+    padding: 6px;
+    box-shadow: 0px 0px 0px grey;
+    transition: border 0.2s, box-shadow 0.25s;
+    margin: 3px;
+} input:focus {
+    box-shadow: 0px 0px 3px grey;
+    border: 2px solid #ddd;
+    transition: border 0.2s, box-shadow 0.25s;
+} input:hover:not(:focus) {
+    border: 2px solid #555;
+    transition: border 0.2s;
+}
+
+/* format background */
+body {
+    padding: 0px 9px;
+    background: #333;
+    font: 14px 'Noto Sans';
+    color: #ccc;
+    margin: 16px;
+}
+
+/* format buttons */
+input.button {
+    border: 2px solid #444;
+    color: #eee;
+    background: #222;
+    border-radius: 0px;
+    padding: 6px;
+    box-shadow: 0px 0px 0px grey;
+    transition: border 0.2s, background: 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+} input.button:hover {
+    background: #f06;
+    box-shadow: 0px 0px 3px #555;
+    border: 2px solid #ddd;
+    transition: border 0.2s, background: 0.1s, box-shadow 0.2s;
+} input.button:focus {
+    background: #f06;
+    box-shadow: 0px 0px 3px #555;
+    border: 2px solid #ddd;
+    transition: border 0.2s, background: 0.1s, box-shadow 0.2s;
+}
+
+::placeholder {
+    color: #777;
+}
+
+a {
+    font: inherit;
+    color: white;
+    transition: color 0.2s;
+} a:hover {
+    color: #f39;
+    transition: color 0.1s;
+}
+
+h1 {
+    font: 36px 'Merriweather Sans';
+    color: #eee;
+}
+
+pink {
+    color: #f06;
+}
+
+/* theme by nokkusuu */
