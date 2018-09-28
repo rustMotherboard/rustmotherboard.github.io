@@ -1,5 +1,8 @@
 home | [changelog](https://rustyjs.github.io/changelog) | [blog](https://rustyjs.github.io/blog)
 
+# notice
+this site is currently a tad bit underused, and a redesign may come soon. please stay tuned!
+
 # home
 welcome to my personal site! after many jekyll themes, i've decided to *not* have a theme for the site. it's just too confusing. just use like, some stylus theme or a browser extension that makes sites dark (dark reader confirmed works for this site no worries)
 
