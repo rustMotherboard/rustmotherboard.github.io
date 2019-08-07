@@ -28,4 +28,4 @@ since having all my posts on one page would be incredibly long, i've split it up
 #### april
 * [11 - Education Week for the Uneducated: Part 2 - Hill Sledding, But There’s No Sleds (With Hockey Rink DLC)](https://rustmotherboard.github.io/archive/2019/03/19-4-11)
 ### august
-* [7 - welcome back to my epic lets play](https://rustmotherboard.github.io/archive/2019/08/19-7-7)
+* [7 - welcome back to my epic lets play](https://rustmotherboard.github.io/archive/2019/08/19-8-7)
