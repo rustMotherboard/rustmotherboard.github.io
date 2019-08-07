@@ -9,4 +9,9 @@ the changelog and blog buttons have been moved to the top, but these will be rep
 [19/8/7 - welcome back to my epic lets play](https://rustmotherboard.github.io/archive/2019/08/19-8-7)
 
 ## contact
+discord - rust_#0051
 [youtube](https://www.youtube.com/channel/UCsIo5NUwh_LsvnfE7OwKCmg)
+[github](https://github.com/rustMotherboard)
+[twitter](https://twitter.com/rustMotherboard)
+[roblox](https://www.roblox.com/users/58971301/profile)
+[finobe](https://finobe.com/user/82445)
