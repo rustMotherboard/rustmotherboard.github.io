@@ -1,4 +1,4 @@
-[home](https://rustmotherboard.github.io/index) | changelog | [blog](https://rustmotherboard.github.io/blog)
+changelog | [blog](https://rustmotherboard.github.io/blog)
 
 # changelog
 ## 2018
