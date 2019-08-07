@@ -11,7 +11,4 @@ changelog | [blog](https://rustmotherboard.github.io/blog)
 ## 2019
 ### august
 * 07 | 6:19 pm | large reorganization
-
-___
-
-[back](https://rustmotherboard.github.io/index)
+* 07 | | imported blogspot posts
