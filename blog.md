@@ -1,8 +1,11 @@
-[changelog](https://rustmotherboard.github.io/changelog) | blog
+blog | [changelog](https://rustmotherboard.github.io/changelog) 
+![](https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-header.png)
 
-# blog
+## blog
 
-since having all my posts on one page would be incredibly long, i've split it up into months, pick one and start reading!
+    since having all my posts on one page would be incredibly long, i've split it up into months, pick one and start reading!
+
+---
 
 ## 2018
 
