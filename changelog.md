@@ -1,4 +1,5 @@
 [blog](https://rustmotherboard.github.io/blog) | changelog 
+---
 ![](https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-header.png)
 
 ---
