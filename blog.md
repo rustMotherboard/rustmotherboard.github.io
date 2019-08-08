@@ -5,10 +5,6 @@
 
 ## blog
 
-    since having all my posts on one page would be incredibly long, i've split it up into months, pick one and start reading!
-
----
-
 ## 2018
 
 ### september
