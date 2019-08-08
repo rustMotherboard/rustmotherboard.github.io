@@ -3,18 +3,20 @@
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-buttons0001.png">
-    <img src="https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-buttons0002.png">
-    <img src="https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-buttons0003.png">
-    <img src="https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-buttons0004.png">
+    <a href="https://rustmotherboard.github.io/blog"><img src="https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-buttons0001.png"</img></a href>
+    <a href="https://rustmotherboard.github.io/changelog"><img src="https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-buttons0002.png"</img></a href>
+    <a href="https://rustmotherboard.github.io/social"><img src="https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-buttons0003.png"</img></a href>
+    <a href="https://rustmotherboard.github.io/projects"><img src="https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-buttons0004.png"</img></a href>
 </p>
 
 ---
 
-## social
+## Social
 
-rust_#0051
+rust_#0051 on **Discord**
 
-[youtube](https://www.youtube.com/channel/UCsIo5NUwh_LsvnfE7OwKmg) | [github](https://github.com/rustMotherboard) | [twitter](https://twitter.com/rustMotherboard)
+[YouTube](https://www.youtube.com/channel/UCsIo5NUwh_LsvnfE7OwKmg) | [Twitter](https://twitter.com/rustMotherboard) | [GitHub](https://github.com/rustMotherboard)
 
-[roblox](https://www.roblox.com/users/58971301/profile) | [finobe](https://finobe.com/user/82445)
+[ROBLOX](https://www.roblox.com/users/58971301/profile) | [Finobe](https://finobe.com/user/82445)
+
+[DeviantArt](https://www.deviantart.com/rustmotherboard) | [SoundCloud](https://soundcloud.com/rustmotherboard) | [Scratch](https://scratch.mit.edu/users/ScratchXT/)
