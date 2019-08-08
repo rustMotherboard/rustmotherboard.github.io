@@ -16,8 +16,6 @@
 </center>
 
 <center>
-<b>3rd Party</b>
-
 <a href="https://rustmotherboard.github.io/projects/stsr"><img src="https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-projectbuttons0004.png"></a>
 <a href="https://rustmotherboard.github.io/projects/oso"><img src="https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-projectbuttons0005.png"></a>
 <a href="https://rustmotherboard.github.io/projects/tac"><img src="https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-projectbuttons0006.png"></a>

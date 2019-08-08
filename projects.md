@@ -16,12 +16,7 @@
 </center>
 
 <center>
-<b>Current</b>
-
 <a href="https://rustmotherboard.github.io/projects/klaust_"><img src="https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-projectbuttons0002.png"></a>
 <a href="https://rustmotherboard.github.io/projects/rwby_house"><img src="https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-projectbuttons0003.png"></a>
-
-<b>Finished</b>
-
 <a href="https://rustmotherboard.github.io/projects/nichijou_no_gaiden"><img src="https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-projectbuttons0001.png"></a>
 </center>
