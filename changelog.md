@@ -28,3 +28,4 @@
 * 07 | 8:10 pm | imported blogspot posts
 * 08 | 1:42 pm | developing better page style overall
 * 08 | 2:32 pm | new pages and header buttons
+* 08 | 6:20 pm | updated projects page, new 3rd party variant
