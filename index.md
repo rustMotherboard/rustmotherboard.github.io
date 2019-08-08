@@ -1,21 +1,20 @@
-![](https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-header.png)
+<p align="center">
+     <img src="https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-header.png">
+</p>
 
-[![](https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-buttons0001.png)](https://rustmotherboard.github.io/blog) [![](https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-buttons0002.png)](https://rustmotherboard.github.io/changelog) [![](https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-buttons0003.png)](https://rustmotherboard.github.io/social) [![](https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-buttons0004.png)](https://rustmotherboard.github.io/projects)
+<p align="center">
+    <img src=https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-buttons0001.png>
+    <img src=https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-buttons0002.png>
+    <img src=https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-buttons0003.png>
+    <img src=https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-buttons0004.png>
+</p>
 
 ---
 
 ## home
 
-welcome to my personal site! it doesn't come with a dark mode. in order to view this site without melting your eyes, i suggest getting the "dark reader" extension, which is available for chrome and firefox (not sure about edge but go ahead anyways, see if it's there).
+welcome to my own little site! this is mainly full of markdown files, so there isn't a built in *dark theme* of some sorts. for that, i'll recommend for you to use Dark Reader, a browser extension that makes every page dark. that should make things much more easier to read. (note, that doesn't work for mobile devices, sorry.)
 
 ## latest blog post
 
 [19/8/7 - welcome back to my epic lets play part 2](https://rustmotherboard.github.io/archive/2019/08/19-8-8)
-
----
-
-## contact/social
-
-rust_#0051
-
-[youtube](https://www.youtube.com/channel/UCsIo5NUwh_LsvnfE7OwKmg) | [github](https://github.com/rustMotherboard) | [twitter](https://twitter.com/rustMotherboard) | [roblox](https://www.roblox.com/users/58971301/profile) | [finobe](https://finobe.com/user/82445)
