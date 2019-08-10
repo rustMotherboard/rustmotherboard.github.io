@@ -14,4 +14,4 @@ Welcome to my own little site! This is mainly full of markdown files, so there i
 
 ## Latest Blog Post
 
-[19/8/7 - welcome back to my epic lets play part 2](https://rustmotherboard.github.io/archive/2019/08/19-8-8)
+[19/8/9 - retweet to die instantly](https://rustmotherboard.github.io/archive/2019/08/19-8-9)
