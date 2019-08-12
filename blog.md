@@ -49,3 +49,4 @@
 * [8 - welcome back to my epic lets play part 2](https://rustmotherboard.github.io/archive/2019/08/19-8-8)
 * [9 - retweet to die instantly part 1: bit.superflex and the breakdown alert](https://rustmotherboard.github.io/archive/2019/08/19-8-9)
 * [10 - retweet to die instantly part 2: just bit.trip](https://rustmotherboard.github.io/archive/2019/08/19-8-10)
+* [11 - bowsur's inverted son](https://rustmotherboard.github.io/archive/2019/08/19-8-11)

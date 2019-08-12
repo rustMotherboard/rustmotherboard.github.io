@@ -14,4 +14,4 @@ Welcome to my own little site! This is mainly full of markdown files, so there i
 
 ## Latest Blog Post
 
-[19/8/9 - retweet to die instantly part 2: just bit.trip](https://rustmotherboard.github.io/archive/2019/08/19-8-10)
+[19/8/11 - bowsur's inverted son](https://rustmotherboard.github.io/archive/2019/08/19-8-11)
