@@ -11,8 +11,8 @@
 ## Projects
 
 <center>
-<a href="https://rustmotherboard.github.io/projects"><img src="https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-buttons0005.png"></a>
-<a href="https://rustmotherboard.github.io/projects_3rdparty"><img src="https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-buttons0006.png"></a>
+<a href="https://rustmotherboard.github.io/projects#projects"><img src="https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-buttons0005.png"></a>
+<a href="https://rustmotherboard.github.io/projects_3rdparty#projects"><img src="https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-buttons0006.png"></a>
 </center>
 
 <center>

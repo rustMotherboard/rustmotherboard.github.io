@@ -5,12 +5,17 @@
 <a href="https://rustmotherboard.github.io/social"><img src="https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-buttons0003.png"></a>
 <a href="https://rustmotherboard.github.io/projects"><img src="https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-buttons0004.png"></a>
 </center>
+<center>
+<iframe src="https://rustmotherboard.github.io/images/site/website-iframeheader.html/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="300px" width="1600px" allowfullscreen></iframe>
+</center>
 
----
+```
+new blog posts will be halted for now, as i'm focusing more on making the site look better
+```
 
 ## Home
 
-Welcome to my own little site! This is mainly full of markdown files, so there isn't a built in *dark theme* of some sorts. For that, i'll recommend for you to use Dark Reader, a browser extension that makes every page dark. That should make things much more easier to read. (Note, that doesn't work for mobile devices, sorry.)
+welcome to my site, i post stuff including art, projects, and blog posts!
 
 ## Latest Blog Post
 
