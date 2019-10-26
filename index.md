@@ -7,7 +7,7 @@
 </center>
 
 <center>
-<link href="/images/site/website-iframeheader.html" rel="import" />
+<embed height=300 width=1600 src="images\site\website-iframeheader.html">
 </center>
 
 ```
