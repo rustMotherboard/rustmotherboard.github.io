@@ -6,7 +6,9 @@
 <a href="https://rustmotherboard.github.io/projects"><img src="https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-buttons0004.png"></a>
 </center>
 
+<html>
 <embed height=300 width=1600 src="images/site/website-iframeheader.html"></embed>
+</html>
 
 ```
 new blog posts will be halted for now, as i'm focusing more on making the site look better
