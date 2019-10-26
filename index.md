@@ -6,7 +6,7 @@
 <a href="https://rustmotherboard.github.io/projects"><img src="https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-buttons0004.png"></a>
 </center>
 <center>
-<iframe src="https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-iframeheader.html" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="300px" width="1600px" allowfullscreen></iframe>
+ <iframe src="images/site/website-iframeheader.html" style="border:none;"></iframe> 
 </center>
 
 ```
