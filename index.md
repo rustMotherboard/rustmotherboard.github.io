@@ -4,13 +4,8 @@
 <a href="https://rustmotherboard.github.io/changelog"><img src="https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-buttons0002.png"></a>
 <a href="https://rustmotherboard.github.io/social"><img src="https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-buttons0003.png"></a>
 <a href="https://rustmotherboard.github.io/projects"><img src="https://raw.githubusercontent.com/rustMotherboard/rustmotherboard.github.io/master/images/site/website-buttons0004.png"></a>
+<iframe height=300 width=1600 scrolling=no src="https://rustmotherboard.github.io/images/site/website-iframeheader.html"></iframe> 
 </center>
-
-<iframe algin=middle height=300 width=1600 scrolling=no src="https://rustmotherboard.github.io/images/site/website-iframeheader.html"></iframe> 
-
-```
-new blog posts will be halted for now, as i'm focusing more on making the site look better
-```
 
 ## Home
 
