@@ -1,0 +1,28 @@
+html {
+    min-height: 100%;
+    }
+body {
+    background: linear-gradient(#721b1b, #440e0e);
+    color: rgb(255,255,555);
+    font-family: Verdana;
+    }
+
+ /* unvisited link */
+ a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(255, 50, 50);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(255, 64, 64);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(255, 255, 255);
+  } 
