@@ -5,26 +5,32 @@ body {
     background: linear-gradient(#721b1b, #440e0e);
     color: rgb(255,255,555);
     font-family: Verdana;
-    }
+}
 
- /* unvisited link */
+.MainContent {
+    margin-left: auto;
+    margin-right: auto;
+	width: 1250px;
+}
+
+/* unvisited link */
 a:link {
-  color: red;
+color: red;
 }
-  
-  /* visited link */
+
+/* visited link */
 a:visited {
-  color: rgb(255, 50, 50);
+color: rgb(255, 50, 50);
 }
-  
-  /* mouse over link */
+
+/* mouse over link */
 a:hover {
-  color: rgb(255, 64, 64);
+color: rgb(255, 64, 64);
 }
-  
-  /* selected link */
+
+/* selected link */
 a:active {
-  color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);
 }
 
 p.boxed {
