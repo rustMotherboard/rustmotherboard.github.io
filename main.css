@@ -1,8 +1,16 @@
 html {
     min-height: 100%;
     }
+
 body {
-    background: linear-gradient(#721b1b, #440e0e);
+    background: linear-gradient(#41db41, #da3838);
+    /* 
+    normal variant
+        background: linear-gradient(#721b1b, #440e0e);
+    ---
+    christmas variant
+        background: linear-gradient(#41db41, #da3838);
+    */
     color: rgb(255,255,555);
     font-family: Verdana;
 }
@@ -15,7 +23,7 @@ body {
 
 /* unvisited link */
 a:link {
-color: red;
+color: rgb(255, 163, 163);
 }
 
 /* visited link */
@@ -25,13 +33,49 @@ color: rgb(255, 50, 50);
 
 /* mouse over link */
 a:hover {
-color: rgb(255, 64, 64);
+color: rgb(255, 190, 190);
 }
 
 /* selected link */
 a:active {
 color: rgb(255, 255, 255);
 }
+
+/*
+normal variant
+    a:link {
+    color: red;
+    }
+
+    a:visited {
+    color: rgb(255, 50, 50);
+    }
+
+    a:hover {
+    color: rgb(255, 64, 64);
+    }
+
+    a:active {
+    color: rgb(255, 255, 255);
+    }
+---
+christmas variant 
+    a:link {
+    color: rgb(255, 163, 163);
+    }
+
+    a:visited {
+    color: rgb(255, 50, 50);
+    }
+
+    a:hover {
+    color: rgb(255, 190, 190);
+    }
+
+    a:active {
+    color: rgb(255, 255, 255);
+    }
+*/
 
 p.boxed {
   border-style: solid;
