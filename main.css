@@ -4,13 +4,6 @@ html {
 
 body {
     background: linear-gradient(#000428, #004e92);
-    /* 
-    normal variant
-        background: linear-gradient(#721b1b, #440e0e);
-    ---
-    christmas variant
-        background: linear-gradient(#000428, #004e92);
-    */
     color: rgb(255,255,555);
     font-family: Verdana;
 }
@@ -40,43 +33,6 @@ color: rgb(108, 110, 255);
 a:active {
 color: rgb(255, 255, 255);
 }
-
-/*
-normal variant
-    a:link {
-    color: red;
-    }
-
-    a:visited {
-    color: rgb(255, 50, 50);
-    }
-
-    a:hover {
-    color: rgb(255, 64, 64);
-    }
-
-    a:active {
-    color: rgb(255, 255, 255);
-    }
----
-christmas variant
-    a:link {
-    color: black;
-    }
-
-    a:visited {
-    color: rgb(102, 0, 0);
-    }
-
-    a:hover {
-    color: rgb(175, 0, 0);
-    }
-    
-    a:active {
-    color: rgb(255, 255, 255);
-    }
-    
-*/
 
 p.boxed {
   border-style: solid;
