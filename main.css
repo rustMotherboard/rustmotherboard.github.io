@@ -23,17 +23,17 @@ body {
 
 /* unvisited link */
 a:link {
-color: rgb(255, 163, 163);
+color: black;
 }
 
 /* visited link */
 a:visited {
-color: rgb(255, 50, 50);
+color: rgb(102, 0, 0);
 }
 
 /* mouse over link */
 a:hover {
-color: rgb(255, 190, 190);
+color: rgb(175, 0, 0);
 }
 
 /* selected link */
