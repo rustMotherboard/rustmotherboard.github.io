@@ -3,7 +3,7 @@ html {
     }
 
 body {
-    background: linear-gradient(#41db41, #da3838);
+    background: linear-gradient(#2c962c, #af2e2e);
     /* 
     normal variant
         background: linear-gradient(#721b1b, #440e0e);
@@ -59,22 +59,23 @@ normal variant
     color: rgb(255, 255, 255);
     }
 ---
-christmas variant 
+christmas variant
     a:link {
-    color: rgb(255, 163, 163);
+    color: black;
     }
 
     a:visited {
-    color: rgb(255, 50, 50);
+    color: rgb(102, 0, 0);
     }
 
     a:hover {
-    color: rgb(255, 190, 190);
+    color: rgb(175, 0, 0);
     }
-
+    
     a:active {
     color: rgb(255, 255, 255);
     }
+    
 */
 
 p.boxed {
