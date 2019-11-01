@@ -3,6 +3,7 @@ html {
     }
 
 body {
+    background-image:url("images/site/website-backgroundoverlay.png");
     background: linear-gradient(#000428, #004e92);
     color: rgb(255,255,555);
     font-family: Verdana;
