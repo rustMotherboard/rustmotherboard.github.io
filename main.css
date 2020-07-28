@@ -12,7 +12,7 @@ body {
 .MainContent {
     margin-left: auto;
     margin-right: auto;
-	width: 1250px;
+	width: 100%;
 }
 
 /* table padding */
