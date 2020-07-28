@@ -12,7 +12,12 @@ body {
 .MainContent {
     margin-left: auto;
     margin-right: auto;
-	width: 1250px;
+	width: 100%;
+}
+
+.fullheight {
+    height: 100%;
+    overflow-y: hidden;
 }
 
 /* table padding */
