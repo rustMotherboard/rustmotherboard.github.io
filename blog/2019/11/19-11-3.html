@@ -1,9 +1,16 @@
 <title>im really cool. yeah part 2</title>
-<link rel="stylesheet" href="../../../main.css" type="text/css">
+<link rel="stylesheet" href="/main.css" type="text/css">
+<script src="/assets/lib/jquery-3.5.1.js"></script>
+<script>
+    $(function(){
+        $("#header").load("/header.html");
+        $("#footer").load("/footer.html");
+    });
+</script>
+</head>
+<div id="header"></div>
 
-
-
-<div class="MainContent">
+<div class="main">
 <h1>im really cool. yeah part 2</h1>
 <h2>5:16 pm</h2>
 oops it seems like i overslept while trying to explain something just as i was about to get to the good stuff. that's never a good thing. thankfully i have full idea on what i was trying to talk about earlier, so i'll continue from where we left of. to recap, i was going to talk about the time where i had to reinstall windows entirely because i was trying to install ubuntu with poke on a discord voice chat when i had the idea of changing the memory drive in the device manager in order to detect the c drive, which wasn't being detected.
@@ -32,21 +39,7 @@ seems complicated enough? get this, even <i>with</i> all the precautions took, t
 wew, right on the 10 pm mark too. anyways, any file that was mainly on the c drive (including all the previous windows stuff that the memory didn't tamper with) had to be erased, and i had to use this old finnish windows iso to get it back and running, since reinstalling windows also means reinstalling other things such as the drivers so that things actually <i>work</i> around the clock instead of just being there being broken and not doing anything. to be continued in <a href="19-11-4.html">part 3</a> because i slept oops
 <br>
 <br>
-<a href="../../../blog.html"><img style="max-width: 100%;" src="../../../images/site/website-backbutton.png"></a>
-<hr>
-<div id="disqus_thread"></div>
-    <script>
-        var disqus_config = function () {
-        this.page.url = "https://rustmotherboard.github.io/archive/2019/11/19-11-3.html";
-        this.page.identifier = rm-identifier;
-        };
-        (function() { // DON'T EDIT BELOW THIS LINE
-            var d = document, s = d.createElement('script');
-            s.src = 'https://rustmotherboard.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
-            })();
-    </script>
-    <noscript>please install java to view the <a href="https://disqus.com/?ref_noscript">comments powered by disqus</a></noscript>
+<a href="/blog.html"><img style="max-width: 100%;" src="/assets/img/back.png"></a>
 </div>
-</div>
+
+<div id="footer"></div>

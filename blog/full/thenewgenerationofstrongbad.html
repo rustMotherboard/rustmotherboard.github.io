@@ -1,12 +1,17 @@
 <!--BE SURE TO REPLACE THE <PATH TO FILE> IN THE FOOTER-->
 <title>the new generation of strong bad</title>
+<link rel="stylesheet" href="/main.css" type="text/css">
+<script src="/assets/lib/jquery-3.5.1.js"></script>
+<script>
+    $(function(){
+        $("#header").load("/header.html");
+        $("#footer").load("/footer.html");
+    });
+</script>
+</head>
+<div id="header"></div>
 
-<link rel="stylesheet" href="../../main.css" type="text/css">
-<!--header-->
-
-<!---->
-    
-<div class="MainContent">
+<div class="main">
 <!--main content-->
 <h1>the new generation of strong bad</h1>
 <h1>part 1 (11/21/2019)</h1>
@@ -66,22 +71,8 @@ to conclude all the tabletop simulator stuff, i feel that that experience was ve
 <!---->
     
 <!--footer-->
-<a href="../../blog.html"><img style="max-width: 100%;" src="../../images/site/website-backbutton.png"></a>
-<hr>
-<div id="disqus_thread">
-    <script>
-        var disqus_config = function () {
-            this.page.url = "https://rustmotherboard.github.io/archive/full/thenewgenerationofstrongbad.html";
-            this.page.identifier = rm-identifier;
-        };
-        (function() { // DON'T EDIT BELOW THIS LINE
-            var d = document, s = d.createElement('script');
-            s.src = 'https://rustmotherboard.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
-        })();
-    </script>
-    <noscript>please install java to view the <a href="https://disqus.com/?ref_noscript">comments powered by disqus</a></noscript>
+<a href="/blog.html"><img style="max-width: 100%;" src="/assets/img/back.png"></a>
 </div>
-</div>
+
+<div id="footer"></div>
 <!---->
