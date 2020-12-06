@@ -23,7 +23,7 @@
 /* headers */
 h1 {
     font-family: Ferrite-Core_med;
-    color: rgb(255,255,555);
+    color: white;
     font-size: 40px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -31,7 +31,7 @@ h1 {
 
 h2 {
     font-family: Ferrite-Core_reg;
-    color: rgb(255,255,555);
+    color: white;
     font-size: 40px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -40,7 +40,7 @@ h2 {
 /* paragraph */
 p {
     font-family: ProFontWindows;
-    color: rgb(255,255,555);
+    color: white;
     font-size: 20px;
     text-align: justify;
 }
@@ -53,6 +53,7 @@ p.footer {
     text-indent: 0%;
     margin: 0px;
 }
+
 p.header {
     font-family: Ferrite-Core_light;
     background-color:#270C2C;
@@ -74,6 +75,7 @@ img.figure {
     display: table-column;
     vertical-align: bottom;
 }
+
 figcaption {
     font-family: ProFontWindows;
     color: white;
@@ -108,4 +110,23 @@ hr {
     background-color: white;
 }
 
-/* blog from infintysnapz */
+tr.list:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+th {
+    font-family: Ferrite-Core_light;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:#ffffff;
+    padding:10px;
+    text-indent: 0%;
+    text-align: justify;
+    margin: 0px;
+}
+
+tr,td {
+    font-family: ProFontWindows;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
