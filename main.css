@@ -46,10 +46,13 @@ h3 {
 }
 
 /* paragraph */
-p {
+body {
     font-family: ProFontWindows;
     color: white;
     font-size: 20px;
+}
+
+p {
     text-align: justify;
 }
 
@@ -65,7 +68,6 @@ p.footer {
 p.header {
     font-family: Ferrite-Core_light;
     background-color:#270C2C;
-    color:#ffffff;
     padding:10px;
     text-indent: 0%;
     text-align: right;
@@ -75,8 +77,40 @@ p.header {
 p.boxed {
     border-style: solid;
     border-width: 4px;
-    color: white;
     padding: 4px;
+}
+
+p.footnote {
+    border-style: dashed;
+    border-width: 4px;
+    padding: 4px;
+}
+
+/* link */
+a.header:link {
+    text-decoration: none;
+    color: white;
+}
+a.header:visited {
+    text-decoration: none;
+    color: white;
+}
+a.header:hover {
+    text-decoration: none;
+    color: #FF8AF5;
+}
+
+a:link {
+    text-decoration: none;
+    color: #FF8AF5;
+}
+a:visited {
+    text-decoration: none;
+    color: rgb(216, 95, 206);
+}
+a:hover {
+    text-decoration: none;
+    color: #ffc3fa;
 }
 
 /* figcaption */
@@ -93,8 +127,7 @@ img.figure {
 
 figcaption {
     font-family: ProFontWindows;
-    color: white;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
     text-align: justify;
 }
@@ -114,13 +147,11 @@ html {
 /* table */
 table {
     padding: 4px;
-    border-color: white;
     border-style: double;
 }
 
 table.borderless {
     padding: 4px;
-    border-color: white;
     border-style: none;
     border-width: 0px;
 }
