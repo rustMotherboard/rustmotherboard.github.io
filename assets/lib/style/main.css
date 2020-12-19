@@ -1,22 +1,22 @@
 /* fonts */
 @font-face {
-    src: url('assets/fonts/ferrite core dx/ttf/FerriteCoreDX-Regular.ttf');
+    src: url('/assets/fonts/ferrite core dx/ttf/FerriteCoreDX-Regular.ttf');
     font-family: Ferrite-Core_reg;
 }
 @font-face {
-    src: url('assets/fonts/ferrite core dx/ttf/FerriteCoreDX-Light.ttf');
+    src: url('/assets/fonts/ferrite core dx/ttf/FerriteCoreDX-Light.ttf');
     font-family: Ferrite-Core_light;
 }
 @font-face {
-    src: url('assets/fonts/ferrite core dx/ttf/FerriteCoreDX-Medium.ttf');
+    src: url('/assets/fonts/ferrite core dx/ttf/FerriteCoreDX-Medium.ttf');
     font-family: Ferrite-Core_med;
 }
 @font-face {
-    src: url('assets/fonts/ferrite core dx/ttf/FerriteCoreDX-Black.ttf');
+    src: url('/assets/fonts/ferrite core dx/ttf/FerriteCoreDX-Black.ttf');
     font-family: Ferrite-Core_black;
 }
 @font-face {
-    src: url('assets/fonts/ProFontWindows.ttf');
+    src: url('/assets/fonts/ProFontWindows.ttf');
     font-family: ProFontWindows;
 }
 
@@ -151,6 +151,12 @@ table {
 }
 
 table.borderless {
+    padding: 0px;
+    border-style: none;
+    border-width: 0px;
+}
+
+table.borderlesspad {
     padding: 4px;
     border-style: none;
     border-width: 0px;

@@ -1,9 +1,16 @@
 <title>pacman - fruit frenzy</title>
-<link rel='stylesheet' href='../main.css' type='text/css'>
-<center>
-<embed width=1250 height=150 src='../images/site/website-iframeheader.html'>
-</center>
-<div class='MainContent'>
+<link rel="stylesheet" href="/assets/lib/style/main.css" type="text/css">
+<script src="/assets/lib/jquery-3.5.1.js"></script>
+<script>
+    $(function(){
+        $("#header").load("/header.html");
+        $("#footer").load("/footer.html");
+    });
+</script>
+</head>
+<div id="header"></div>
+
+<div class='main'>
 <!-- main content -->
 <h1>games</h1>
 
