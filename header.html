@@ -1,3 +1,4 @@
+
 <link rel="stylesheet" href="/assets/lib/style/main.css" type="text/css">
 <script>
     var image = new Array ();
@@ -27,13 +28,14 @@
     image[25] = "/img/banners/header/headerimg0024.png";
 
     var size = image.length
-    var x = Math.floor(size*Math.random())
+    var x = Math.floor(size*Math.random()-1)
     $('#randombanner').attr('src',image[x]);
 </script>
 
+
 <img id="randombanner" width="100%">
 <p class="header">
-    <a class="header" href="/index.html"><img src="/assets/img/r_logo.png" width="250px" style="float: left;"></a>
+    <a class="header" href="/index.html"><img src="/assets/img/r_headerpink.svg" width="250px" style="float: left;"></a>
     <br>
     <a class="header" href="/blog.html">blog</a> <a class="header" href="/projects.html">projects</a> <a class="header" href="/misc.html">misc</a>
     <br>

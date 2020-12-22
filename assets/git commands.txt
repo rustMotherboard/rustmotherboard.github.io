@@ -7,7 +7,7 @@ git status                | checks for changes
 git add -A                | adds all files
 
 git commit -m "<message>" | commits and adds message
-git push -u origin main   | push changes
+git push                  | push changes
 git pull                  | pull new changes
 
 // branch
