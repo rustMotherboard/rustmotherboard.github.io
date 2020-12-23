@@ -1,38 +1,32 @@
-<title>more</title>
-<link rel="stylesheet" href="main.css" type="text/css">
 
-<div class="MainContent">
-    <h1>more</h1>
-    <p>these are additional stuff you can check out that doesn't fit on the header. i can only add so much into 6 buttons. have at it!</p>
-    <center>
-        <table>
-            <tr>
-                <a href="misc/downloadables.html"><img style="max-width: 100%;" src="images/site/website-miscbuttons0001.png"></a>
-                
-                <h2>coming soon</h2>
-                <img style="max-width: 100%;" src="images/site/website-miscbuttons0002.png"></a>
-                <img style="max-width: 100%;" src="images/site/website-miscbuttons0003.png"></a>
-            </tr>
-        </table>
-    </center>
-<p></p>
-<!--footer-->
-<a href="index2.html"><img style="max-width: 100%;" src="images/site/website-backbutton.png"></a>
+<title>misc</title>
+<link rel="stylesheet" href="/assets/lib/style/main.css" type="text/css">
+<script src="/assets/lib/jquery-3.5.1.js"></script>
+<script>
+    $(function(){
+        $("#header").load("/header.html");
+        $("#footer").load("/footer.html");
+    });
+</script>
+
+<div id="header"></div>
+
+<div class="main">
+<h1>misc</h1>
 <hr>
-<div id="disqus_thread">
-    <script>
-        var disqus_config = function () {
-            this.page.url = "https://rustmotherboard.github.io/misc.html/";
-            this.page.identifier = rm-identifier;
-        };
-        (function() { // DON'T EDIT BELOW THIS LINE
-            var d = document, s = d.createElement('script');
-            s.src = 'https://rustmotherboard.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
-        })();
-    </script>
-    <noscript>please install java to view the <a href="https://disqus.com/?ref_noscript">comments powered by disqus</a></noscript>
+<h2>pages</h2>
+<center><table class="borderless">
+    <tr>
+        <a href="misc/downloads.html"><img style="max-width: 100%;" src="/img/misc/miscimg0001.png"></a>
+        <a href="misc/games.html"><img style="max-width: 100%;" src="/img/misc/miscimg0003.png"></a>
+        <a href="misc/portfolio.html"><img style="max-width: 100%;" src="/img/misc/miscimg0002.png"></a>
+    </tr>
+</table></center>
+
+<h2>tetr.io</h2>
+<iframe src="https://overlay.kagar.in/overlay?display-level=true&display-role=true&display-badge=true&display-rank=true&display-league=true&display-sprint=true&display-blitz=true&username=5e34c79cc8035a4c0f43e03f&alignment=middle&layout=horizontal&league=apm+pps+vs&sprint=pieces+pps+kpp+kps+quads&blitz=pps+spp+pieces+pieces+quads+tspins+allclears" width="100%" style="border:0;" scrolling="no"></iframe>
+<br><br> <!--lord forgive me for this-->
+
+<a href="/index.html"><img style="max-width: 100%;" src="/assets/img/backimg.svg"></a>
 </div>
-</div>
-<!---->
+<div id="footer"></div>
