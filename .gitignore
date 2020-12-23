@@ -27,4 +27,5 @@ $RECYCLE.BIN/
 *.lnk
 
 #### custom ####
-.vscode/
+.vscode
+localhost.bat
