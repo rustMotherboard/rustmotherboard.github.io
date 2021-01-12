@@ -1,0 +1,450 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"max",
+				"max-width\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "template.html",
+			"settings":
+			{
+				"buffer_size": 521,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "git commands.txt",
+			"settings":
+			{
+				"buffer_size": 516,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Documents/Projects/Repositories/rustmotherboard.github.io/projects.html",
+			"settings":
+			{
+				"buffer_size": 1070,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"packagere",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"Package Control: disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/projects"
+	],
+	"file_history":
+	[
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/projects/klaust_.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/projects/klaust_/klaust_.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/projects/klaust_/player-js/index.json",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/projects.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/.gitignore",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/index.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/header.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/projects/rwbyhouse.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/projects/mwt.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/projects/cfan4.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2018/09/18-9-10.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2018/09/18-9-11.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2018/09/18-9-19.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2018/09/18-9-8.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2018/09/18-9-9.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/02/19-2-22-2.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/02/19-2-22-3.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/02/19-2-22.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/02/19-2-23-2.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/02/19-2-23-3.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/02/19-2-23.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/03/19-3-1.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/03/19-3-3.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/03/19-3-7.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/04/19-4-11.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/08/19-8-10.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/08/19-8-11.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/08/19-8-7.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/08/19-8-8.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/08/19-8-9.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/11/19-11-12.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/11/19-11-13.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/11/19-11-14.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/11/19-11-15.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/11/19-11-2.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/11/19-11-21.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/11/19-11-25.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/11/19-11-27.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/11/19-11-3.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/11/19-11-4.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/11/19-11-5.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/11/19-11-6.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/11/19-11-7.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/11/19-11-8.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/12/19-12-18.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/12/19-12-2.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2019/12/19-12-4.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2020/01/20-1-17.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2020/01/20-1-27.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2020/01/20-1-29.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2020/02/20-2-3.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2020/04/20-4-3.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2020/08/20-8-13.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/full/educationweekfortheuneducated.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/full/imreallycoolyeah.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/full/retweettodieinstantly.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/full/rikotsuraforpuyopuyotetris2official.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/full/thenewgenerationofstrongbad.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/full/theobjectroleplayhierarchy.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/full/welcomebacktomyepicletsplay.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/downloads.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/portfolio.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/2playerflappybird.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/bombsurvival.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/chocolatebirdfrenzy.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/cirvival.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/collabminer.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/collabminer2.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/cookieclicker.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/cursorrampage.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/cursorrampage3.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/cursorrampage4.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/cursorrampage5.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/cursorrampagedx.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/flappybird.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/flappycursor.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/flappylegicc.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/flappysquare.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/guessit.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/landrpunch.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/pacmanfruitfrenzy.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/punchclick.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/rainbowsquareadventure.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/scratcherheroes.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/taptitans.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/twhgedevlvl.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/waxoiliovstetris.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/woodyadventuresdeluxe.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/cursorrampage2/cursorrampage2_1-1.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/cursorrampage2/cursorrampage2_1-6-3.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/cursorrampage2/cursorrampage2_1-6-4.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/cursorrampage2/cursorrampage2_1-6-9.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/cursorrampage2/cursorrampage2_1-6.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/games/cursorrampage2/cursorrampage2_1-7.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/projects/nng.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/footer.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/assets/lib/style/main.css",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/assets/git commands.txt",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/img/projects/cfan4/waterfox_27ygxiv6dy.png",
+		"/D/Documents/Program Files/Adobe Animate/rendered/images/poses/ppbfdi/tetra/jay.png",
+		"/D/Documents/Program Files/Adobe Animate/rendered/images/poses/ppbfdi/tetra/elle.png",
+		"/D/Programs/Portable Programs/Sublime Text Build 3211 x64/Data/Packages/Default/Context.sublime-menu",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/assets/template.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/git commands.txt",
+		"/D/Programs/Portable Programs/Sublime Text Build 3211 x64/Data/Packages/User/ClickableUrls.sublime-settings",
+		"/D/Programs/Portable Programs/Sublime Text Build 3211 x64/Data/Packages/SublimeGit/SublimeGit.sublime-settings",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/localhost.bat"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 116.0,
+		"where_history":
+		[
+			"<open folders>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"</head>",
+			"<head>",
+			"back.png",
+			"\"back.png\"",
+			"\nback.png",
+			"\n\"back.png\"",
+			"max-width=\"100%\"",
+			"max-width",
+			"<tr>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"backimg.svg",
+			"style=\"max-width: 100%;\"",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "template.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 521,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								80,
+								80
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "git commands.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 516,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								210,
+								210
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "/D/Documents/Projects/Repositories/rustmotherboard.github.io/projects.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1070,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								349,
+								349
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.27690313981,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "rm-project.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 211.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
