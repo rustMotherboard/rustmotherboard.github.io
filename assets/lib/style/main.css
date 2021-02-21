@@ -21,39 +21,37 @@
 }
 
 /* headers */
-h1 {
-    font-family: Ferrite-Core_med;
-    color: white;
-    font-size: 40px;
+h1,h2,h3,body {
+    color: white;    
     margin-top: 0px;
     margin-bottom: 0px;
+    overflow-wrap: break-word;
+}
+
+h1 {
+    font-family: Ferrite-Core_med;
+    font-size: 40px;
 }
 
 h2 {
     font-family: Ferrite-Core_reg;
-    color: white;
     font-size: 40px;
-    margin-top: 0px;
-    margin-bottom: 0px;
 }
 
 h3 {
     font-family: Ferrite-Core_light;
-    color: white;
     font-size: 30px;
-    margin-top: 0px;
-    margin-bottom: 0px;
 }
 
 /* paragraph */
 body {
     font-family: ProFontWindows;
-    color: white;
     font-size: 20px;
 }
 
 p {
     text-align: justify;
+    overflow-wrap: break-word;
 }
 
 p.footer {
@@ -123,6 +121,7 @@ figure {
 img.figure {
     display: table-column;
     vertical-align: bottom;
+    max-width: 100%;
 }
 
 figcaption {
@@ -148,18 +147,21 @@ html {
 table {
     padding: 4px;
     border-style: double;
+    width: 100%;
 }
 
 table.borderless {
     padding: 0px;
     border-style: none;
     border-width: 0px;
+    width: 100%;
 }
 
 table.borderlesspad {
     padding: 4px;
     border-style: none;
     border-width: 0px;
+    width: 100%;
 }
 
 hr {
@@ -188,4 +190,5 @@ tr,td {
     color: white;
     font-size: 20px;
     text-align: justify;
+    word-break: break-word;
 }
