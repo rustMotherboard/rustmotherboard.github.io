@@ -190,4 +190,5 @@ tr,td {
     color: white;
     font-size: 20px;
     text-align: justify;
+    word-break: break-word;
 }
