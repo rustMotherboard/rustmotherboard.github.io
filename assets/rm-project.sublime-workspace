@@ -4,12 +4,12 @@
 		"selected_items":
 		[
 			[
-				"word",
-				"word-break\tproperty"
-			],
-			[
 				"max",
 				"max-width\tproperty"
+			],
+			[
+				"word",
+				"word-break\tproperty"
 			]
 		]
 	},
@@ -25,10 +25,54 @@
 			}
 		},
 		{
-			"file": "comictemplate.html",
+			"file": "git commands.txt",
 			"settings":
 			{
-				"buffer_size": 1865,
+				"buffer_size": 472,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/miscer/useful.html",
+			"settings":
+			{
+				"buffer_size": 748,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/miscer/rikofumopat.html",
+			"settings":
+			{
+				"buffer_size": 1116,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Documents/Projects/Repositories/rustmotherboard.github.io/header.html",
+			"settings":
+			{
+				"buffer_size": 2531,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Documents/Projects/Repositories/rustmotherboard.github.io/index.html",
+			"settings":
+			{
+				"buffer_size": 4802,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc.html",
+			"settings":
+			{
+				"buffer_size": 1673,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -38,51 +82,6 @@
 			"settings":
 			{
 				"buffer_size": 252,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "git commands.txt",
-			"settings":
-			{
-				"buffer_size": 472,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/Documents/Projects/Repositories/rustmotherboard.github.io/projects/achs/achs-index.html",
-			"settings":
-			{
-				"buffer_size": 617,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/Documents/Projects/Repositories/rustmotherboard.github.io/projects/achs/comic/1.html",
-			"settings":
-			{
-				"buffer_size": 1896,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc.html",
-			"settings":
-			{
-				"buffer_size": 1572,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/Documents/Projects/Repositories/rustmotherboard.github.io/index.html",
-			"settings":
-			{
-				"buffer_size": 4450,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -148,31 +147,31 @@
 	"expanded_folders":
 	[
 		"/D/Documents/Projects/Repositories/rustmotherboard.github.io",
-		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/assets",
-		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/assets/lib",
-		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/assets/lib/style",
-		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog",
-		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/full",
 		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/img",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/img/misc",
 		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/img/projects",
 		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc",
-		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/miscer",
-		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/projects",
-		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/projects/achs"
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/miscer"
 	],
 	"file_history":
 	[
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/index.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/projects/bfmfo/bfmfo-index.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/projects.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/projects/bfmfo/comic/1.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/footer.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/assets/comictemplate.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/projects/achs/achs-index.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/projects/achs/comic/1.html",
+		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc.html",
 		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/assets/lib/style/main.css",
 		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/header.html",
-		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/projects.html",
-		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc.html",
 		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/useful.html",
 		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/headerimg.html",
 		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/projects/mwt.html",
 		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/projects/nng.html",
 		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/projects/rwbyhouse.html",
 		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog.html",
-		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/index.html",
 		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2018/09/18-9-10.html",
 		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2018/09/18-9-11.html",
 		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/blog/2018/09/18-9-19.html",
@@ -264,7 +263,6 @@
 		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/projects/klaust_/player-js/index.json",
 		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/.gitignore",
 		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/downloads.html",
-		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/footer.html",
 		"/D/Documents/Projects/Repositories/rustmotherboard.github.io/img/projects/cfan4/waterfox_27ygxiv6dy.png",
 		"/D/Documents/Program Files/Adobe Animate/rendered/images/poses/ppbfdi/tetra/jay.png",
 		"/D/Documents/Program Files/Adobe Animate/rendered/images/poses/ppbfdi/tetra/elle.png",
@@ -277,7 +275,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -297,6 +295,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"class=\"figure\"",
 			"<img",
 			"<img style=\"max-width: 100%;\"",
 			"width=625px\"",
@@ -324,6 +323,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"style=\"max-width: 100%\"",
 			"<img class=\"figure\"",
 			"width=\"625px\"",
 			"class=\"figure\"",
@@ -361,36 +361,8 @@
 						"selection":
 						[
 							[
-								267,
-								267
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "comictemplate.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1865,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1749,
-								1749
+								747,
+								633
 							]
 						],
 						"settings":
@@ -405,35 +377,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/D/Documents/Projects/Repositories/rustmotherboard.github.io/footer.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 252,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
+					"buffer": 1,
 					"file": "git commands.txt",
 					"semi_transient": false,
 					"settings":
@@ -445,8 +389,8 @@
 						"selection":
 						[
 							[
-								85,
-								21
+								267,
+								267
 							]
 						],
 						"settings":
@@ -457,58 +401,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 3,
-			"sheets":
-			[
-				{
-					"buffer": 4,
-					"file": "/D/Documents/Projects/Repositories/rustmotherboard.github.io/projects/achs/achs-index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 617,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								494,
-								494
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "/D/Documents/Projects/Repositories/rustmotherboard.github.io/projects/achs/comic/1.html",
+					"buffer": 2,
+					"file": "/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/miscer/useful.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1896,
+						"buffer_size": 748,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								94,
-								94
+								322,
+								0
 							]
 						],
 						"settings":
@@ -521,6 +431,100 @@
 					},
 					"stack_index": 5,
 					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "/D/Documents/Projects/Repositories/rustmotherboard.github.io/misc/miscer/rikofumopat.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								912,
+								912
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/D/Documents/Projects/Repositories/rustmotherboard.github.io/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2531,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2088,
+								2088
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 452.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/D/Documents/Projects/Repositories/rustmotherboard.github.io/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4802,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1742,
+								1742
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 253.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
 				},
 				{
 					"buffer": 6,
@@ -528,15 +532,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1572,
+						"buffer_size": 1673,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								277,
-								277
+								869,
+								869
 							]
 						],
 						"settings":
@@ -552,33 +556,30 @@
 				},
 				{
 					"buffer": 7,
-					"file": "/D/Documents/Projects/Repositories/rustmotherboard.github.io/index.html",
+					"file": "/D/Documents/Projects/Repositories/rustmotherboard.github.io/footer.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4450,
+						"buffer_size": 252,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								424,
-								424
+								225,
+								225
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 140.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -612,7 +613,7 @@
 		"cols":
 		[
 			0.0,
-			0.0687757909216,
+			0.26297354107,
 			1.0
 		],
 		"rows":
@@ -630,7 +631,7 @@
 	"project": "rm-project.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 71.0
 	},
 	"save_all_on_build": true,
 	"select_file":
