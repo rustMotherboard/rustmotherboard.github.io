@@ -1,18 +1,18 @@
 /* fonts */
 @font-face {
-    src: url('/assets/fonts/ferrite core dx/ttf/FerriteCoreDX-Regular.ttf');
+    src: url('/assets/fonts/ferrite core dx/FerriteCoreDX-Regular.ttf');
     font-family: Ferrite-Core_reg;
 }
 @font-face {
-    src: url('/assets/fonts/ferrite core dx/ttf/FerriteCoreDX-Light.ttf');
+    src: url('/assets/fonts/ferrite core dx/FerriteCoreDX-Light.ttf');
     font-family: Ferrite-Core_light;
 }
 @font-face {
-    src: url('/assets/fonts/ferrite core dx/ttf/FerriteCoreDX-Medium.ttf');
+    src: url('/assets/fonts/ferrite core dx/FerriteCoreDX-Medium.ttf');
     font-family: Ferrite-Core_med;
 }
 @font-face {
-    src: url('/assets/fonts/ferrite core dx/ttf/FerriteCoreDX-Black.ttf');
+    src: url('/assets/fonts/ferrite core dx/FerriteCoreDX-Black.ttf');
     font-family: Ferrite-Core_black;
 }
 @font-face {
