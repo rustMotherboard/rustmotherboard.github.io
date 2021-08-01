@@ -41,8 +41,5 @@ $RECYCLE.BIN/
 # Ignore all local history of files
 .history
 .ionide
-
-# custom
-dist
-assets/php
+assets/lib/php
 localhost.bat
