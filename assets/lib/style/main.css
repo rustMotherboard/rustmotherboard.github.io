@@ -121,6 +121,9 @@ figure {
 img.figure {
     display: table-column;
     vertical-align: bottom;
+}
+
+img {
     max-width: 100%;
 }
 
