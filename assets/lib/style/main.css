@@ -3,33 +3,40 @@
     src: url('/assets/fonts/ferrite core dx/FerriteCoreDX-Regular.ttf');
     font-family: Ferrite-Core_reg;
 }
+
 @font-face {
     src: url('/assets/fonts/ferrite core dx/FerriteCoreDX-Light.ttf');
     font-family: Ferrite-Core_light;
 }
+
 @font-face {
     src: url('/assets/fonts/ferrite core dx/FerriteCoreDX-Medium.ttf');
     font-family: Ferrite-Core_med;
 }
+
 @font-face {
     src: url('/assets/fonts/ferrite core dx/FerriteCoreDX-Black.ttf');
     font-family: Ferrite-Core_black;
 }
+
 @font-face {
     src: url('/assets/fonts/ProFontWindows.ttf');
     font-family: ProFontWindows;
 }
 
 /* headers */
-h1,h2,h3,body {
-    color: white;    
+h1,
+h2,
+h3,
+body {
+    color: white;
     margin-top: 0px;
     margin-bottom: 0px;
     overflow-wrap: break-word;
 }
 
 h1 {
-    font-family: Ferrite-Core_med;
+    font-family: Ferrite-Core_reg;
     font-size: 40px;
 }
 
@@ -56,17 +63,17 @@ p {
 
 p.footer {
     font-family: Ferrite-Core_light;
-    background-color:#000000;
-    color:#ffffff;
-    padding:10px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
     text-indent: 0%;
     margin: 0px;
 }
 
 p.header {
     font-family: Ferrite-Core_light;
-    background-color:#270C2C;
-    padding:10px;
+    background-color: #270C2C;
+    padding: 10px;
     text-indent: 0%;
     text-align: right;
     margin: 0px;
@@ -89,10 +96,12 @@ a.header:link {
     text-decoration: none;
     color: white;
 }
+
 a.header:visited {
     text-decoration: none;
     color: white;
 }
+
 a.header:hover {
     text-decoration: none;
     color: #FF8AF5;
@@ -102,10 +111,12 @@ a:link {
     text-decoration: none;
     color: #FF8AF5;
 }
+
 a:visited {
     text-decoration: none;
     color: rgb(216, 95, 206);
 }
+
 a:hover {
     text-decoration: none;
     color: #ffc3fa;
@@ -123,10 +134,6 @@ img.figure {
     vertical-align: bottom;
 }
 
-img {
-    max-width: 100%;
-}
-
 figcaption {
     font-family: ProFontWindows;
     background-color: rgba(0, 0, 0, 0.5);
@@ -136,7 +143,7 @@ figcaption {
 
 /* universal */
 div.main {
-    background-image: linear-gradient(#511B5A,#523458);
+    background-image: linear-gradient(#511B5A, #523458);
     margin: 0px;
     padding: 16px;
 }
@@ -144,6 +151,10 @@ div.main {
 html {
     background-color: black;
     margin: 0px;
+}
+
+img {
+    max-width: 100%;
 }
 
 /* table */
@@ -155,13 +166,6 @@ table {
 
 table.borderless {
     padding: 0px;
-    border-style: none;
-    border-width: 0px;
-    width: 100%;
-}
-
-table.borderlesspad {
-    padding: 4px;
     border-style: none;
     border-width: 0px;
     width: 100%;
@@ -181,14 +185,15 @@ tr.list:nth-child(odd) {
 th {
     font-family: Ferrite-Core_light;
     background-color: rgba(0, 0, 0, 0.5);
-    color:#ffffff;
-    padding:10px;
+    color: #ffffff;
+    padding: 10px;
     text-indent: 0%;
     text-align: justify;
     margin: 0px;
 }
 
-tr,td {
+tr,
+td {
     font-family: ProFontWindows;
     color: white;
     font-size: 20px;

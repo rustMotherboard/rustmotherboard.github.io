@@ -1,44 +1,54 @@
 <link rel="stylesheet" href="/assets/lib/style/main.css" type="text/css">
+<!-- https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
+<style>
+    #sttBtn {
+        display: none; /* Hidden by default */
+        position: fixed; /* Fixed/sticky position */
+        bottom: 20px; /* Place the button at the bottom of the page */
+        right: 30px; /* Place the button 30px from the right */
+        z-index: 99; /* Make sure it does not overlap */
+        border: none; /* Remove borders */
+        outline: none; /* Remove outline */
+        background-color: rgb(0, 0, 0); /* Set a background color */
+        color: white; /* Text color */
+        cursor: pointer; /* Add a mouse pointer on hover */
+        padding: 15px; /* Some padding */
+    }
+    #sttBtn:hover {
+        background-color: #FF8AF5;
+        color:rgb(0, 0, 0);
+        /* Add a dark-grey background on hover */
+    }
+</style>
 <script>
-    $(document).ready(function(){
-        var image = new Array ();
-        image[0] = "/img/banners/header/headerimg0001.png";
-        image[1] = "/img/banners/header/headerimg0002.png";
-        image[2] = "/img/banners/header/headerimg0003.png";
-        image[3] = "/img/banners/header/headerimg0004.png";
-        image[4] = "/img/banners/header/headerimg0005.png";
-        image[5] = "/img/banners/header/headerimg0006.png";
-        image[6] = "/img/banners/header/headerimg0007.png";
-        image[7] = "/img/banners/header/headerimg0008.png";
-        image[8] = "/img/banners/header/headerimg0009.png";
-        image[9] = "/img/banners/header/headerimg0010.png";
-        image[10] = "/img/banners/header/headerimg0011.png";
-        image[11] = "/img/banners/header/headerimg0012.png";
-        image[12] = "/img/banners/header/headerimg0013.png";
-        image[13] = "/img/banners/header/headerimg0014.png";
-        image[14] = "/img/banners/header/headerimg0015.png";
-        image[15] = "/img/banners/header/headerimg0016.png";
-        image[16] = "/img/banners/header/headerimg0017.png";
-        image[17] = "/img/banners/header/headerimg0018.png";
-        image[20] = "/img/banners/header/headerimg0019.png";
-        image[21] = "/img/banners/header/headerimg0020.png";
-        image[22] = "/img/banners/header/headerimg0021.png";
-        image[23] = "/img/banners/header/headerimg0022.png";
-        image[24] = "/img/banners/header/headerimg0023.png";
-        image[25] = "/img/banners/header/headerimg0024.png";
-
-        var size = image.length
-        var x = Math.floor(size*Math.random()-1)
-        $('#randombanner').attr('src',image[x]);
-    });
+    // Get the button
+    var mybutton = document.getElementById("sttBtn");
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+        scrollFunction()
+    };
+    function scrollFunction() {
+        if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
 </script>
-
-
-<img id="randombanner" width="100%">
 <p class="header">
-    <a class="header" href="/index.html"><img src="/assets/img/r_headerpink.svg" width="250px" style="float: left;"></a>
-    <br><br>
-    <a class="header" href="/blog.html">blog</a> <a class="header" href="/projects.html">projects</a> <a class="header" href="/misc.html">misc</a>
+    <a class="header" href="/index.html"><img src="/assets/img/r_headerpink.svg" width="250px" style="float: left;"></a><br><br>
+    <a class="header" href="/about.html">about</a> 
+    <a class="header" href="/blog.html">blog</a> 
+    <a class="header" href="/projects.html">projects</a> 
+    <a class="header" href="/misc.html">misc</a>
     <br>
 </p>
 <marquee>cfan6 challenge 1 now available! here! check <a href="/projects/cfan6/cfan6-index.html">this</a> out</marquee>
+
+<!--scroll to top-->
+<button onclick="topFunction()" id="sttBtn">▲</button>
