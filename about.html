@@ -1,114 +1,135 @@
 <!doctype html>
 <html>
+
 <head>
-<title>title</title>
-<meta charset="utf-8">
-<link rel="stylesheet" href="/assets/main.css">
-<script src="/assets/jquery-3.6.0.min.js"></script> 
-<script>
-	$(document).ready(function(){
-		$(function(){
-			$("#header").load("/header.html");
-			$("#footer").load("/footer.html");
-	});});
-</script>
+    <title>title</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/assets/main.css">
+    <script src="/assets/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(function () {
+                $("#header").load("/header.html");
+                $("#footer").load("/footer.html");
+            });
+        });
+    </script>
 </head>
+
 <body>
-<header id="header"></header>
-<h1>about</h1>
-<h2 class="rainbow">hello! i'm rust.</h2>
-<p>i'm someone who probably can't take a break when it comes to working on projects that range from nonsense to something with value that, based on my track record, will never be finished!</p>
-<p>this here is my own website, put together in dreamweaver. what if i told you this was the 3rd or 4th major iteration of this website? must be pretty surprising. everything used to all be in markdown files! that's a github thing! there wasn't even a possibility of adding dark mode or importing files to that. must be pretty insane having to deal with that and not once consider "hmm. <i>maybe</i> i should finally get my own fucking website put together in html!" needless to say that worked out.</p>
-<p>everything runs as a static website. what you see is what you get! that hasn't been imported, of course. sure, responsive websites are a whole lot better and actually work decently on a large scale, but what do you expect out of me? i don't exactly have a server to go to, or funding, or the willpower. nope, here i am using github to host a website that has little to do with actual coding in the first place. wonderful, huh?</p>
-<p>i also wanted to use this website redesign as an excuse to try out adobe dreamweaver over visual studio code. i kinda like the live preview more than the extension that does the same thing in visual studio code. the difference is that you can live edit the live preview here, and is also speifically designed for website design, and comes with git support much like visual studio code. all in all, it works out!</p>
-<p>so yeah, im a vector artist that likes to draw cyborg versions of pre-existing characters, but sometimes i also draw regular chariactures too. in other words, actual drawings!</p>
-<hr>
-<p>here's a list of things i either like or don't like (in no particular order). consider this my list of interests and stuff i do not enjoy! i don't call them triggers or any of the sort because i don't like it as in...like, "interactin" with it. discussion is fine unless said otherwise</p>
-<table width="100%" border="0">
- <tbody>
-  <tr>
-   <th scope="col">yes :]</th>
-   <th scope="col">no :[&nbsp;</th>
-  </tr>
-  <tr>
-   <td>touhou</td>
-   <td></td>
-  </tr>
-  <tr>
-   <td>osc</td>
-   <td></td>
-  </tr>
-  <tr>
-   <td>yume nikki</td>
-   <td></td>
-  </tr>
-  <tr>
-   <td>puyo puyo</td>
-   <td></td>
-  </tr>
-  <tr>
-   <td>anime<br>
-    <ul>
-     <li>madoka magica</li>
-     <li>hunter x hunter</li>
-     <li>girls last tour</li>
-     <li>nichijou</li>
-     <li>re:zero (haven't read it yet but bmp told its good so i'll read it later)</li>
-     <li>watamote (also a bmp suggestion)</li>
-    </ul></td>
-   <td></td>
-  </tr>
-  <tr>
-   <td>music<br>
-    <ul>
-     <li>jungle</li>
-     <li>breakcore</li>
-     <li>hardcore</li>
-    </ul></td>
-   <td></td>
-  </tr>
-  <tr>
-   <td></td>
-   <td></td>
-  </tr>
-  <tr>
-   <td></td>
-   <td></td>
-  </tr>
-  <tr>
-   <td></td>
-   <td></td>
-  </tr>
-  <tr>
-   <td></td>
-   <td></td>
-  </tr>
-  <tr>
-   <td></td>
-   <td></td>
-  </tr>
-  <tr>
-   <td></td>
-   <td></td>
-  </tr>
-  <tr>
-   <td></td>
-   <td></td>
-  </tr>
-  <tr>
-   <td></td>
-   <td></td>
-  </tr>
-  <tr>
-   <td></td>
-   <td></td>
-  </tr>
-  <tr>
-   <td>&nbsp;</td>
-   <td></td>
-  </tr>
- </tbody>
-</table>
-<footer id="footer"></footer>
+    <div class="main">
+    <header id="header"></header>
+
+    <h1>about</h1>
+    <h2 class="rainbow">hello! i'm rust.</h2>
+    <p>i'm someone who probably can't take a break when it comes to working on projects that range from nonsense to
+        something with value that, based on my track record, will never be finished!</p>
+    <p>im a vector artist that likes to draw cyborg versions of pre-existing characters, but sometimes i also draw
+        regular caricatures too. in other words, actual drawings! i sketch in clip studio paint with a drawing tablet
+        and then sometimes color it in adobe animate. it's very fun, but usually only works well when i'm actually in
+        the mood.</p>
+    <hr>
+    <p>here's a list of things i either like or don't like (in no particular order). consider this my list of interests
+        and stuff i do not enjoy! i don't call them triggers or any of the sort because i don't like it as in...like,
+        "interacting" with it. discussion is fine unless said otherwise</p>
+    <table width="100%" border="0">
+        <tbody>
+            <tr>
+                <th scope="col">yes :]</th>
+                <th scope="col">no :[</th>
+            </tr>
+            <tr>
+                <td>touhou</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>osc</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>yume nikki</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>puyo puyo</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>anime<br>
+                    <ul>
+                        <li>madoka magica</li>
+                        <li>hunter x hunter</li>
+                        <li>girls last tour</li>
+                        <li>nichijou</li>
+                        <li>re:zero</li>
+                        <li>watamote</li>
+                        <li>fullmetal alchemist brotherhood</li>
+                        <li></li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>music<br>
+                    <ul>
+                        <li>jungle</li>
+                        <li>breakcore</li>
+                        <li>hardcore</li>
+                        <li>classical</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>mechs</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>obscure media</td>
+                <ul>
+                    <li>monster buster club</li>
+                    <li>bonus stage (webtoon)</li>
+                    <li>software or alternatives to software wih very specific purposes</li>
+                </ul>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <footer id="footer"></footer>
+</div>
 </body>
+
 </html>
