@@ -18,7 +18,7 @@
         // variables for title and pages
         var title = "CFAN6 C3"
         var page = 1
-        var max = 76
+        var max = 81
 
         function updateTitle() {
             document.title = title + " :: " + page;
@@ -27,7 +27,7 @@
         // comic page here
         function updateImg() {
             filename = ("0000" + page).slice(-4)
-            $("#comic").attr("src", "https://raw.githubusercontent.com/rustMotherboard/cfan6-img/master/1/cfan6-3" + filename + ".png");
+            $("#comic").attr("src", "https://raw.githubusercontent.com/rustMotherboard/cfan6-img/master/3/cfan6-3" + filename + ".png");
             updateTitle();
         };
 
@@ -46,12 +46,18 @@
         };
 
         function img2Pos() {
-            page = max
+            page = max;
             updateImg();
         }
 
         function img2Neg() {
-            page = 1
+            page = 1;
+            updateImg();
+        }
+
+        function pageChange() {
+            var x = document.getElementById("goto").value;
+            page = x;
             updateImg();
         }
 
@@ -61,6 +67,7 @@
             $('#forwardest').click(img2Pos);
             $('#backest').click(img2Neg);
             updateImg();
+            $("input").attr("max", max);
         });
     </script>
 </head>
@@ -78,6 +85,10 @@
             <button id="back">
                 ◀
             </button>
+            <input id="goto" type="number" min="1" max="1" value="1">
+            <button onclick="pageChange()">
+                GO
+            </button>
             <button id="forward">
                 ▶
             </button>
@@ -86,7 +97,7 @@
             </button>
         </center>
 
-        <p><a href="/index.html"><img src="/assets/img/backimg.svg"></a></p>
+        <p><a href="/projects/cfan6/cfan6.html"><img src="/assets/img/backimg.svg"></a></p>
         <footer id="footer"></footer>
     </div>
 </body>
