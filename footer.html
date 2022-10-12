@@ -5,7 +5,45 @@
 	<title>footer</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="/assets/main.css">
+
+	<script>
+		$(document).ready(function () {
+			var image = new Array();
+			image[0] = "assets/img/footer/headerimg0001.png";
+			image[1] = "assets/img/footer/headerimg0002.png";
+			image[2] = "assets/img/footer/headerimg0003.png";
+			image[3] = "assets/img/footer/headerimg0004.png";
+			image[4] = "assets/img/footer/headerimg0005.png";
+			image[5] = "assets/img/footer/headerimg0006.png";
+			image[6] = "assets/img/footer/headerimg0007.png";
+			image[7] = "assets/img/footer/headerimg0008.png";
+			image[8] = "assets/img/footer/headerimg0009.png";
+			image[9] = "assets/img/footer/headerimg0010.png";
+			image[10] = "assets/img/footer/headerimg0011.png";
+			image[11] = "assets/img/footer/headerimg0012.png";
+			image[12] = "assets/img/footer/headerimg0013.png";
+			image[13] = "assets/img/footer/headerimg0014.png";
+			image[14] = "assets/img/footer/headerimg0015.png";
+			image[15] = "assets/img/footer/headerimg0016.png";
+			image[16] = "assets/img/footer/headerimg0017.png";
+			image[17] = "assets/img/footer/headerimg0018.png";
+			image[20] = "assets/img/footer/headerimg0019.png";
+			image[21] = "assets/img/footer/headerimg0020.png";
+			image[22] = "assets/img/footer/headerimg0021.png";
+			image[23] = "assets/img/footer/headerimg0022.png";
+			image[24] = "assets/img/footer/headerimg0023.png";
+			image[25] = "assets/img/footer/headerimg0024.png";
+
+			var size = image.length
+			var x = Math.floor(size * Math.random() - 1)
+			$('#randombanner').attr('src', image[x]);
+		});
+	</script>
 </head>
+
+<div class="headerflex" style="padding: 4px;">
+	<img id="randombanner" width="100%">
+</div>
 
 <body>
 	<div class="headerflex">
