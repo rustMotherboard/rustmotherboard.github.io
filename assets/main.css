@@ -29,7 +29,9 @@
 }
 
 hr {
-	color: #fff
+	border: 0;
+	height: 3px;
+	background-color: #FF8AF5;
 }
 
 .headerflex {
@@ -40,20 +42,9 @@ hr {
 }
 
 div.hbutton {
-	margin-left: 8px;
-	margin-right: 8px
-}
-
-.headerflex>div {
-	background-color: #43003e;
-	font-size: 16px;
-	color: #ff8af5;
-	font-family: Ferrite-core_med;
-	padding: 5px
-}
-
-.headerflex>div.footer {
-	background-color: #000
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-bottom: 5px
 }
 
 div.hf-logo {
@@ -63,8 +54,21 @@ div.hf-logo {
 	width: 100%;
 	height: 50px;
 	text-align: right;
-	margin: 15px
+	margin: 5px
 }
+
+.headerflex>div {
+	background-color: #43003e;
+	font-size: 16px;
+	color: #ff8af5;
+	font-family: Ferrite-core_med;
+	padding: 4px
+}
+
+.headerflex>div.footer {
+	background-color: #000
+}
+
 
 .footer {
 	position: fixed;
@@ -156,7 +160,8 @@ table {
 }
 
 p,
-td {
+td,
+li {
 	text-align: justify;
 	overflow-wrap: break-word;
 	font-family: ProFontWindows;
