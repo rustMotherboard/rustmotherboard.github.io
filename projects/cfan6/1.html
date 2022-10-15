@@ -16,9 +16,9 @@
     </script>
     <script>
         // variables for title and pages
-        var title = "CFAN6 C2"
+        var title = "CFAN6 C1"
         var page = 1
-        var max = 110
+        var max = 76
 
         function updateTitle() {
             document.title = title + " :: " + page;
@@ -27,7 +27,7 @@
         // comic page here
         function updateImg() {
             filename = ("0000" + page).slice(-4)
-            $("#comic").attr("src", "https://raw.githubusercontent.com/rustMotherboard/cfan6-img/master/2/cfan6-2" + filename + ".png");
+            $("#comic").attr("src", "https://raw.githubusercontent.com/rustMotherboard/cfan6-img/master/1/cfan6-1" + filename + ".png");
             updateTitle();
         };
 
@@ -97,7 +97,7 @@
             </button>
         </center>
 
-        <p><a href="/projects/cfan6/cfan6.html"><img src="/assets/img/backimg.svg"></a></p>
+        <p><a href="/projects/cfan6.html"><img src="/assets/img/backimg.svg"></a></p>
         <footer id="footer"></footer>
     </div>
 </body>
