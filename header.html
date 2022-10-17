@@ -1,41 +1,30 @@
-<link rel="stylesheet" href="/assets/lib/style/main.css" type="text/css">
-<!-- https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
-<script>
-    // Get the button
-    var mybutton = document.getElementById("sttBtn");
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function () {
-        scrollFunction()
-    };
-    function scrollFunction() {
-        if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
-            mybutton.style.display = "block";
-        } else {
-            mybutton.style.display = "none";
-        }
-    }
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
-</script>
+<!doctype html>
+<html>
 
-<p class="header">
-    <table class="borderless" width="100%">
-        <tr>
-            <td><a class="header" href="/index.html"><img src="/assets/img/r_headerpink.svg" width="250px" style="float: left;"></a></td>
-            <td style="font-family: Ferrite-Core_light; float: right; vertical-align: bottom">
-                <a class="header" href="/about.html">about</a> 
-                <a class="header" href="/blog.html">blog</a> 
-                <a class="header" href="/projects.html">projects</a> 
-                <a class="header" href="/misc.html">misc</a>
-            </td>
-        </tr>
-    </table>
-</p>
+<head>
+	<title>header</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="/assets/main.css">
+</head>
 
-<marquee>cfan6 has updated..once again! <a href="/projects/cfan6/cfan6-index.html">challenge 3 available to read here</a>. nah i dont got anything else this time around. i mean hey if you're reading this you could at least, like, check out cfan4. the one i worked on before cfan6. i missed the 5th one. theres this one guy that kept asking me for a new cfan4 video, despite the fact im workin on a new cfan6 challenge like every 10 days or so</marquee>
+<body>
+	<a id="top"></a>
+	<div class="headerflex">
+		<div class="hf-logo"><img src="/assets/branding/rmb_logo_p.svg" height="100%" style="float: left">10/14/2022</div>
+		<div class="hbutton"><a href="/index.html">HOME</a></div>
+		<div class="hbutton"><a href="/about.html">ABOUT</a></div>
+		<div class="hbutton"><a href="/projects.html">PROJECTS</a></div>
+		<div class="hbutton"><a href="https://cdn.ko-fi.com/cdn/kofi5.png?v=3">DONATE/COMMS</a></div>
+	</div>
+	<div class="ticker-container">
+		<div class="ticker-wrapper">
+			<div class="ticker-transition">
+				<div class="ticker-item">hi! new website! i've also cleared up some clutter, might add it back later</div>
+				<div class="ticker-item">for now i've just kept the core project pages, if i get the time i'll think about blog posts again, i didn't really like any of them in retrospect</div>
+				<div class="ticker-item">(then again i don't think anyone actually goes on the site)</div>
+			</div>
+		</div>
+	</div>
+</body>
 
-<!--scroll to top-->
-<button onclick="topFunction()" id="sttBtn">▲</button>
+</html>

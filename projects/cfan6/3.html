@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>title</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/assets/main.css">
+    <script src="/assets/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(function () {
+                $("#header").load("/header.html");
+                $("#footer").load("/footer.html");
+            });
+        });
+    </script>
+    <script>
+        // variables for title and pages
+        var title = "CFAN6 C3"
+        var page = 1
+        var max = 81
+
+        function updateTitle() {
+            document.title = title + " :: " + page;
+        }
+
+        // comic page here
+        function updateImg() {
+            filename = ("0000" + page).slice(-4)
+            $("#comic").attr("src", "https://raw.githubusercontent.com/rustMotherboard/cfan6-img/master/3/cfan6-3" + filename + ".png");
+            updateTitle();
+        };
+
+        function imgPos() {
+            if ((page + 1) <= max) {
+                page++;
+                updateImg();
+            }
+        };
+
+        function imgNeg() {
+            if ((page - 1) > 0) {
+                page--;
+                updateImg();
+            }
+        };
+
+        function img2Pos() {
+            page = max;
+            updateImg();
+        }
+
+        function img2Neg() {
+            page = 1;
+            updateImg();
+        }
+
+        function pageChange() {
+            var x = document.getElementById("goto").value;
+            page = x;
+            updateImg();
+        }
+
+        $(document).ready(function () {
+            $('#forward').click(imgPos);
+            $('#back').click(imgNeg);
+            $('#forwardest').click(img2Pos);
+            $('#backest').click(img2Neg);
+            updateImg();
+            $("input").attr("max", max);
+        });
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <header id="header"></header>
+
+        <center>
+            <img id="comic" class="figure" style="vertical-align:top;" src="">
+            <br>
+            <button id="backest">
+                ◀◀
+            </button>
+            <button id="back">
+                ◀
+            </button>
+            <input id="goto" type="number" min="1" max="1" value="1">
+            <button onclick="pageChange()">
+                GO
+            </button>
+            <button id="forward">
+                ▶
+            </button>
+            <button id="forwardest">
+                ▶▶
+            </button>
+        </center>
+
+        <p><a href="/projects/cfan6.html"><img src="/assets/img/backimg.svg"></a></p>
+        <footer id="footer"></footer>
+    </div>
+</body>
+
+</html>
