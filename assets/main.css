@@ -1,44 +1,70 @@
+/* Fonts */
 @font-face {
+	font-family: Ferrite-Core_reg;
 	src: url('/assets/font/FerriteCoreDX-Regular.otf');
-	font-family: Ferrite-Core_reg
 }
 
 @font-face {
+	font-family: Ferrite-Core_light;
 	src: url('/assets/font/FerriteCoreDX-Light.otf');
-	font-family: Ferrite-Core_light
 }
 
 @font-face {
+	font-family: Ferrite-Core_med;
 	src: url('/assets/font/FerriteCoreDX-Medium.otf');
-	font-family: Ferrite-Core_med
 }
 
 @font-face {
+	font-family: Ferrite-Core_black;
 	src: url('/assets/font/FerriteCoreDX-Black.otf');
-	font-family: Ferrite-Core_black
 }
 
 @font-face {
+	font-family: Ferrite-Core_display;
 	src: url('/assets/font/FerriteCoreDX-Display.otf');
-	font-family: Ferrite-Core_display
 }
 
 @font-face {
+	font-family: ProFontWindows;
 	src: url('/assets/font/ProFontWindows.ttf');
-	font-family: ProFontWindows
 }
 
-hr {
-	border: 0;
-	height: 3px;
-	background-color: #FF8AF5;
+/* Body */
+body {
+	background-color: #1b0018;
+	margin: 0
 }
 
+/* Main */
+div.main,
+div.mainflex {
+	background-color: #1b0018;
+}
+
+div.mainflex {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+/* Header */
 .headerflex {
 	display: flex;
 	justify-content: center;
 	background-color: #000;
 	flex-wrap: wrap
+}
+
+.headerflex>div {
+	background-color: #43003e;
+	font-size: 16px;
+	color: #ff8af5;
+	font-family: Ferrite-core_med;
+	padding: 4px
+}
+
+.headerflex>div.footer {
+	background-color: #000
 }
 
 div.hbutton {
@@ -57,106 +83,118 @@ div.hf-logo {
 	margin: 5px
 }
 
-.headerflex>div {
-	background-color: #43003e;
-	font-size: 16px;
-	color: #ff8af5;
-	font-family: Ferrite-core_med;
-	padding: 4px
+a.header:hover {
+	text-decoration: none;
+	color: #ff8af5
 }
 
-.headerflex>div.footer {
-	background-color: #000
+a.header,
+a.header:hover,
+a.header:focus,
+a.header.active,
+a.header.active:hover,
+a.header.active:focus {
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+	outline: none;
 }
 
-
+/* Footer */
 .footer {
 	position: fixed;
 	left: 0;
 	bottom: 0
 }
 
+/* Ticker */
 .ticker-container {
 	width: 100%;
-	overflow: hidden
+	overflow: hidden;
+	padding-left: 100%;
+	background-color: #000;
 }
 
 .ticker-wrapper {
 	width: 100%;
 	padding-left: 100%;
-	background-color: #000
-}
-
-@keyframes ticker {
-	0% {
-		transform: translate3d(0, 0, 0)
-	}
-
-	100% {
-		transform: translate3d(-100%, 0, 0)
-	}
-}
-
-.ticker-transition {
+	background-color: #000;
+	animation: ticker linear infinite;
+	animation-duration: 100s;
+	animation-play-state: running;
+	animation-timing-function: linear;
+	animation-name: ticker;
+	animation-iteration-count: infinite;
 	display: inline-block;
 	white-space: nowrap;
 	padding-right: 100%;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-	animation-name: ticker;
-	animation-duration: 100s
 }
 
 .ticker-transition:hover {
 	animation-play-state: paused;
-	cursor: pointer
+	cursor: pointer;
 }
 
 .ticker-item {
 	display: inline-block;
 	padding: 0 2rem;
 	color: #fff;
-	font-family: ProFontWindows
+	font-family: ProFontWindows;
 }
 
-a.header:link {
-	text-decoration: none;
-	color: white
+@keyframes ticker {
+	0% {
+		transform: translate3d(0, 0, 0);
+	}
+
+	100% {
+		transform: translate3d(-100%, 0, 0);
+	}
 }
 
-a.header:visited {
-	text-decoration: none;
-	color: white
-}
-
-a.header:hover {
-	text-decoration: none;
-	color: #ff8af5
-}
-
-a:link {
-	text-decoration: none;
-	color: #ff8af5
-}
-
-a:visited {
-	text-decoration: none;
-	color: #d85fce
-}
-
+/* Links */
 a:hover {
 	text-decoration: none;
-	color: #ffc3fa
+	color: #ffc3fa;
+}
+
+a:focus,
+a.active,
+a.active:hover,
+a.active:focus {
+	text-decoration: none;
+	color: #d85fce;
+}
+
+a,
+a:hover,
+a:focus,
+a.active,
+a.active:hover,
+a.active:focus {
+	text-decoration: none;
+	color: #ff8af5;
+}
+
+/* Text */
+p,
+h1,
+h2,
+h3,
+h4 {
+	padding-left: 12px;
+	padding-right: 12px;
 }
 
 p,
 h1,
 h2,
 h3,
-h4,
-table {
-	padding-left: 12px;
-	padding-right: 12px
+h4 {
+	text-align: justify;
+	overflow-wrap: break-word;
+	color: #ff8af5;
+	margin-bottom: 0;
 }
 
 p,
@@ -171,105 +209,96 @@ li {
 
 td {
 	margin-top: 5px;
-	margin-bottom: 1px
+	margin-bottom: 1px;
 }
 
 p {
 	margin-top: 15px;
-	margin-bottom: 15px
-}
-
-body {
-	background-color: #1b0018;
-	margin: 0
-}
-
-div.main, div.mainflex {
-	background-color: #1b0018;
-}
-
-div.mainflex {
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
-}
-
-h1,
-h2,
-h3,
-h4 {
-	text-align: justify;
-	overflow-wrap: break-word;
-	color: #ff8af5;
-	margin-bottom: 0
+	margin-bottom: 15px;
 }
 
 h1 {
-	font-family: Ferrite-Core_black
+	font-family: Ferrite-Core_black;
 }
 
 h2 {
-	font-family: Ferrite-Core_reg
+	font-family: Ferrite-Core_reg;
 }
 
 h3,
 h4 {
-	font-family: Ferrite-Core_light
+	font-family: Ferrite-Core_light;
 }
 
+/* Table */
 table {
 	table-layout: fixed;
-	width: 100%
+	width: 100%;
 }
 
 th,
 td {
 	border-left: 2px solid;
 	border-right: 2px solid;
-	padding: 3px
+	padding: 3px;
 }
 
 th {
 	font-family: Ferrite-Core_light;
 	background-color: #43003e;
-	color: #ff8af5
+	color: #ff8af5;
 }
 
 td {
-	padding: 4px
+	padding: 4px;
 }
 
 tr {
-	background-color: #1a0018
+	background-color: #1a0018;
 }
 
 tr:nth-child(even) {
-	background-color: #340030
+	background-color: #340030;
 }
 
+/* Images */
 img {
-	max-width: 100%
+	max-width: 100%;
 }
 
+/* Rainbow Text */
 .rainbow {
-	background-image: linear-gradient(90deg, rgba(255, 0, 0, 1) 0, rgba(255, 154, 0, 1) 10%, rgba(208, 222, 33, 1) 20%, rgba(79, 220, 74, 1) 30%, rgba(63, 218, 216, 1) 40%, rgba(47, 201, 226, 1) 50%, rgba(28, 127, 238, 1) 60%, rgba(95, 21, 242, 1) 70%, rgba(186, 12, 248, 1) 80%, rgba(251, 7, 217, 1) 90%, rgba(255, 0, 0, 1) 100%);
+	background-image:
+		linear-gradient(90deg,
+			rgba(255, 0, 0, 1) 0%,
+			rgba(255, 154, 0, 1) 10%,
+			rgba(208, 222, 33, 1) 20%,
+			rgba(79, 220, 74, 1) 30%,
+			rgba(63, 218, 216, 1) 40%,
+			rgba(47, 201, 226, 1) 50%,
+			rgba(28, 127, 238, 1) 60%,
+			rgba(95, 21, 242, 1) 70%,
+			rgba(186, 12, 248, 1) 80%,
+			rgba(251, 7, 217, 1) 90%,
+			rgba(255, 0, 0, 1) 100%);
 	-webkit-background-clip: text;
 	background-clip: text;
 	color: transparent;
-	animation: rbmove 100s linear infinite
+	animation: rbmove 100s linear infinite;
 }
 
 @keyframes rbmove {
 	to {
-		background-position: 4500vh
+		background-position: 4500vh;
 	}
 }
 
+/* No Form */
 .noform {
-	all: revert
+	all: revert;
 }
 
-/* buttons */
+/* Buttons */
 button {
 	padding: 4px;
 	border: none;
@@ -281,12 +310,11 @@ button:hover {
 	background-color: #FF8AF5;
 	color: #000;
 	border: none;
-	/* Remove borders */
 	outline: none;
-	/* Remove outline */
 	cursor: pointer;
 }
 
+/* Site Flex */
 .siteflex {
 	flex-grow: 1;
 	border: inset;
