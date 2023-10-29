@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -8,105 +8,68 @@
     <script src="/assets/jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function () {
-            $(function () {
-                $("#header").load("/header.html");
-                $("#footer").load("/footer.html");
+            const images = Array.from({length: 24}, (_, i) => `/assets/img/footer/headerimg${String(i + 1).padStart(4, '0')}.png`);
+            let currentIndex = Math.floor(Math.random() * images.length);
+            const intervalTime = 10000; // change this to modify the interval
+            const fadeDuration = 1000; // change this to modify the fade duration
+    
+            const $randomBanner = $('#randombanner');
+            $randomBanner.attr('src', images[currentIndex]);
+    
+            let intervalId = setInterval(changeImage, intervalTime);
+    
+            function changeImage() {
+                currentIndex = (currentIndex + 1) % images.length;
+                $randomBanner.stop(true, true).fadeOut(fadeDuration, function() {
+                    $(this).attr('src', images[currentIndex]).fadeIn(fadeDuration);
+                });
+            }
+    
+            // toggle visibility of the image when clicked
+            $('#randombanner, #showFooter').click(function() {
+                $randomBanner.stop(true, true);
+                $('#randombanner, #showFooter').toggle();
+                if ($randomBanner.is(':visible')) {
+                    intervalId = setInterval(changeImage, intervalTime);
+                } else {
+                    clearInterval(intervalId);
+                }
             });
         });
-    </script>
+    </script>          
 </head>
 
 <body>
-    <div class="main">
-        <header id="header"></header>
-        <table border="0px" width="100%">
-            <tr>
-                <td>
-                    <h1>youtube</h1>
-                    <iframe width="100%" height="391"
-                        src="https://www.youtube-nocookie.com/embed/videoseries?list=UUsIo5NUwh_LsvnfE7OwKCmg"
-                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </td>
-                <td width="50%">
-                    <h1>tumblr</h1>
-                    <script type="text/javascript">
-                        rssfeed_url = new Array();
-                        rssfeed_url[0] = "https://rustmotherboard.tumblr.com/rss";
-                        rssfeed_frame_width = "100%";
-                        rssfeed_frame_height = "379";
-                        rssfeed_scroll = "off";
-                        rssfeed_scroll_step = "10";
-                        rssfeed_scroll_bar = "on";
-                        rssfeed_target = "_top";
-                        rssfeed_font_size = "12";
-                        rssfeed_font_face = "Lucida Console";
-                        rssfeed_border = "off";
-                        rssfeed_css_url = "";
-                        rssfeed_title = "on";
-                        rssfeed_title_name = "rust_";
-                        rssfeed_title_bgcolor = "#FF8AF5";
-                        rssfeed_title_color = "#000";
-                        rssfeed_title_bgimage = "";
-                        rssfeed_footer = "on";
-                        rssfeed_footer_name = "rustmotherboard.tumblr.com";
-                        rssfeed_footer_bgcolor = "#000";
-                        rssfeed_footer_color = "#fff";
-                        rssfeed_footer_bgimage = "";
-                        rssfeed_item_title_length = "50";
-                        rssfeed_item_title_color = "#FF8AF5";
-                        rssfeed_item_bgcolor = "#000";
-                        rssfeed_item_bgimage = "";
-                        rssfeed_item_border_bottom = "on";
-                        rssfeed_item_source_icon = "off";
-                        rssfeed_item_date = "on";
-                        rssfeed_item_description = "on";
-                        rssfeed_item_description_length = "120";
-                        rssfeed_item_description_color = "#fff";
-                        rssfeed_item_description_link_color = "#FF8AF5";
-                        rssfeed_item_description_tag = "on";
-                        rssfeed_no_items = "0";
-                        rssfeed_cache = "2e5e15562292ab720d3a05b136d0f954";
-                    </script>
-                    <script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script>
-                </td>
-            </tr>
-        </table>
-
-        <hr>
-
-        <table border="0px" width="100%">
-            <tr>
-                <td>
-                    <a href="https://infinitysnapz.neocities.org/"><img style="max-width: 100%"
-                            src="assets/img/btn/infinitysnapz.gif"
-                            title="the infinity that snapz i dunno i haven't watched the channel"></a>
-                    <a href="https://theblookyoob.neocities.org/index.html"><img style="max-width: 100%"
-                            src="assets/img/btn/bko.gif"
-                            title="but um look guys look it's bkoszuta (NOW REFERRED TO AS THEBLOOKYOOB)"></a>
-                    <a href="https://park-city.club/~frix/"><img style="max-width: 100%" src="assets/img/btn/frix.gif"
-                            title="don't actually know this person but this website fucking rocks it's way better than mine what the dang!!!"></a>
-                    <a href="https://system128.neocities.org/"><img style="max-width: 100%" src="assets/img/btn/128.gif"
-                            title="system128 * system2 = system256"></a>
-                    <a href="https://y0y0evan.neocities.org"><img style="max-width: 100%" src="assets/img/btn/evan.gif"
-                            title="CATCH THE DAMN TRAIN CJ!!!!!!!!!!!"></a>
-                    <a href="https://edc4.neocities.org"><img style="max-width: 100%" src="assets/img/btn/EDC4.gif"
-                            title="the mic zula..or  was it rula yeah it was rula"></a>
-                    <a href="https://allyratworld.neocities.org"><img style="max-width: 100%"
-                            src="assets/img/btn/allyrat.png"
-                            title="allyrat planet world dimensioning. Wo ww! hope you like pastel"></a>
-                    <a href="https://theblookyoob.neocities.org/index.html"><img style="max-width: 100%"
-                            src="assets/img/btn/dillon.gif" title="dil.dll"></a>
-                    <a href="https://eblu.neocities.org"><img style="max-width: 100%" src="assets/img/btn/eblu.png"
-                            title="idk this person but their site kicks ass"></a>
-                    <a href="https://y2k.neocities.org"><img style="max-width: 100%"
-                            src="assets/img/btn/y2kmoshedotsuki.gif"
-                            title="dude yume nikki fucking rocks yEYEYyes. Ye.s"></a>
-                </td>
-            </tr>
-        </table>
+    <div class="mainflex">
+        <header>
+            <a id="top"></a>
+            <div class="headerflex">
+                <div class="hf-logo"><img src="/assets/branding/rmb_logo_p.svg" height="100%" style="float: left">10/29/2023</div>
+                <div class="hbutton"><a href="/ifindex.html" target="siteframe">HOME</a></div>
+                <div class="hbutton"><a href="/about.html" target="siteframe">ABOUT</a></div>
+                <div class="hbutton"><a href="/projects.html" target="siteframe">PROJECTS</a></div>
+            </div>
+            <div class="ticker-container">
+                <div class="ticker-wrapper">
+                    <div class="ticker-transition">
+                        <div class="ticker-item">hii! apologies for not updating. been busy drawing. projects page has been updated!!</div>
+                        <div class="ticker-item">not much else new, but i'll be sure to try and update this more than once every year! key word here is try</div>
+                        <div class="ticker-item">in other news i've recently been posting stuff to tumblr and the public server landofspikes more often! i've got it linked somewhere. can you find my secret super link?</div>
+                        <div class="ticker-item">one last thing actually! the website had a massive overhaul in how you access pages. now instead of going to the pages entirely, you go through an iframe for them now! this actually makes it so that you'll probably finally read this news ticker now!</div>
+                        <div class="ticker-item">with that in mind, did you know you can also hide the website's bottom banner now? just click on it! click on the text that appears for it to come back! this is great if you got one of those "wide" monitor setups.</div>
+                        <div class="ticker-item">that's all from me for now! have fun with the place! contact me if anything's a bit silly for you</div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <iframe class="siteflex" name="siteframe" src="/ifindex.html"></iframe>
+        <footer>
+            <div class="headerflex" style="padding: 4px;">
+                <img id="randombanner" width="100%">
+            </div>
+            <div id="showFooter" style="display: none; text-align: center; color: #ff8af5; font-family: Ferrite-Core_reg; background-color: black;">show banner</div>
+        </footer>
     </div>
-    <footer id="footer"></footer>
 </body>
 
 </html>
