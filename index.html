@@ -8,25 +8,30 @@
     <script src="/assets/jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function () {
-            const images = Array.from({length: 24}, (_, i) => `/assets/img/footer/headerimg${String(i + 1).padStart(4, '0')}.png`);
+            const images = Array.from({ length: 24 }, (_, i) => `/assets/img/footer/headerimg${String(i + 1).padStart(4, '0')}.png`);
             let currentIndex = Math.floor(Math.random() * images.length);
             const intervalTime = 10000; // change this to modify the interval
             const fadeDuration = 1000; // change this to modify the fade duration
-    
+
             const $randomBanner = $('#randombanner');
             $randomBanner.attr('src', images[currentIndex]);
-    
+
             let intervalId = setInterval(changeImage, intervalTime);
-    
+
             function changeImage() {
-                currentIndex = (currentIndex + 1) % images.length;
-                $randomBanner.stop(true, true).fadeOut(fadeDuration, function() {
+                let newIndex;
+                do {
+                    newIndex = Math.floor(Math.random() * images.length);
+                } while (newIndex === currentIndex);
+                currentIndex = newIndex;
+
+                $randomBanner.stop(true, true).fadeOut(fadeDuration, function () {
                     $(this).attr('src', images[currentIndex]).fadeIn(fadeDuration);
                 });
             }
-    
+
             // toggle visibility of the image when clicked
-            $('#randombanner, #showFooter').click(function() {
+            $('#randombanner, #showFooter').click(function () {
                 $randomBanner.stop(true, true);
                 $('#randombanner, #showFooter').toggle();
                 if ($randomBanner.is(':visible')) {
@@ -36,7 +41,7 @@
                 }
             });
         });
-    </script>          
+    </script>
 </head>
 
 <body>
@@ -44,7 +49,7 @@
         <header>
             <a id="top"></a>
             <div class="headerflex">
-                <div class="hf-logo"><img src="/assets/branding/rmb_logo_p.svg" height="100%" style="float: left">10/29/2023</div>
+                <div class="hf-logo"><img src="/assets/branding/rmb_logo_p.svg" height="100%" style="float: left">11/12/2023</div>
                 <div class="hbutton"><a href="/ifindex.html" target="siteframe">HOME</a></div>
                 <div class="hbutton"><a href="/about.html" target="siteframe">ABOUT</a></div>
                 <div class="hbutton"><a href="/projects.html" target="siteframe">PROJECTS</a></div>
