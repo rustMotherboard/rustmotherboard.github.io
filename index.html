@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>rustMotherboard</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="/assets/main.css">
-    <script src="/assets/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="/assets/style/main.css">
+    <!-- <script src="/assets/style/jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function () {
             const images = Array.from({ length: 24 }, (_, i) => `/assets/img/footer/headerimg${String(i + 1).padStart(4, '0')}.png`);
@@ -41,7 +41,7 @@
                 }
             });
         });
-    </script>
+    </script> -->
 </head>
 
 <body>
@@ -49,31 +49,39 @@
         <header>
             <a id="top"></a>
             <div class="headerflex">
-                <div class="hf-logo"><img src="/assets/branding/rmb_logo_p.svg" height="100%" style="float: left">11/12/2023</div>
-                <div class="hbutton"><a href="/ifindex.html" target="siteframe">HOME</a></div>
-                <div class="hbutton"><a href="/about.html" target="siteframe">ABOUT</a></div>
-                <div class="hbutton"><a href="/projects.html" target="siteframe">PROJECTS</a></div>
+                <div class="hf-logo"><img src="/assets/branding/rmb_logo_p.svg" height="100%" style="float: left">12/9/2023</div>
+                <div class="hbutton"><a href="/ifindex.html" target="siteframe">home</a></div>
+                <div class="hbutton"><a href="/projects.html" target="siteframe">projects</a></div>
+                <div class="hbutton"><a href="/art.html" target="siteframe">art</a></div>
+                <div class="hbutton"><a href="/misc.html" target="siteframe">misc</a></div>
             </div>
             <div class="ticker-container">
                 <div class="ticker-wrapper">
                     <div class="ticker-transition">
+                        <div class="ticker-item">NEW UPDATE: the <a href="/art.html" target="siteframe">art page!</a> i've finally gotten around to posting what my art looks like on here, in the event my social media pages don't cut it... right now it contains mindvisor and puyopunk art, but i'll update it with any new stuff i crank out</div>
+                        <div class="ticker-item">by the way! did you know that there's a new background now? it's also svg format, so it's scalable! it's got a nice texture to it...'</div>
+                        <div class="ticker-item">the about page is also merged with the home page now! so all the buttons (+ new userbars!!!) are there now for convenience.</div>
+                        <div class="ticker-item"><a href="/misc.html" target="siteframe">misc page</a> is also back...it ain't funny featured yet, but it should </div>
+                        <div class="ticker-item">there's also a fixed width now! so if you got one of those WIDE monitors, now the site should actually be more readable instead of it all being one line!</div>
+                        <div class="ticker-item">bonus!! new background! it's scalable, and fancy! no more of that solid color, now you get to enjoy two solid colors for your viewing entertainment!</div>
+                        <div class="ticker-item">for the time being i've commented out the footer code, ended up being pretty distracting (and the only use for jquery), so until i know what to do with it i'll leave it like that</div>
+                        <div class="ticker-item"><b>|>| PREVIOUS NEWS |>|</b></div>
                         <div class="ticker-item">hii! apologies for not updating. been busy drawing. projects page has been updated!!</div>
                         <div class="ticker-item">not much else new, but i'll be sure to try and update this more than once every year! key word here is try</div>
                         <div class="ticker-item">in other news i've recently been posting stuff to tumblr and the public server landofspikes more often! i've got it linked somewhere. can you find my secret super link?</div>
                         <div class="ticker-item">one last thing actually! the website had a massive overhaul in how you access pages. now instead of going to the pages entirely, you go through an iframe for them now! this actually makes it so that you'll probably finally read this news ticker now!</div>
-                        <div class="ticker-item">with that in mind, did you know you can also hide the website's bottom banner now? just click on it! click on the text that appears for it to come back! this is great if you got one of those "wide" monitor setups.</div>
                         <div class="ticker-item">that's all from me for now! have fun with the place! contact me if anything's a bit silly for you</div>
                     </div>
                 </div>
             </div>
         </header>
         <iframe class="siteflex" name="siteframe" src="/ifindex.html"></iframe>
-        <footer>
+        <!-- <footer>
             <div class="headerflex" style="padding: 4px;">
                 <img id="randombanner" width="100%">
             </div>
             <div id="showFooter" style="display: none; text-align: center; color: #ff8af5; font-family: Ferrite-Core_reg; background-color: black;">show banner</div>
-        </footer>
+        </footer> -->
     </div>
 </body>
 

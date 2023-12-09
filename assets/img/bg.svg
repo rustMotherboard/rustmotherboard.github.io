@@ -1,0 +1,204 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="640px" height="640px" viewBox="0 0 640 640">
+<defs>
+<g id="bg_0_Layer2_0_FILL">
+<path fill="#1B0018" stroke="none" d="
+M 640 0
+L 0 0 0 640 640 640 640 0 Z"/>
+</g>
+
+<g id="Mask_bg_0_1_MASK_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 640 640
+L 640 0 0 0 0 640 640 640 Z"/>
+</g>
+
+<g id="bg_0_Layer1_0_FILL">
+<path fill="#260023" stroke="none" d="
+M 0 245.25
+L 0 289.85 21.5 311.35 21.5 454.5 0 476 0 511.1 79.7 431.4 79.7 324.9 0 245.25
+M 397.3 -5.65
+L 352.05 -5.65 352.05 13.75 433.15 94.85 433.15 187.65 416.15 187.65 339.45 110.95 339.45 -10 311.8 -10 311.8 175.05 381.2 244.45 381.2 362 403.9 384.7 352.05 436.5 352.05 656.6 397.3 656.6 397.3 616.2 503.9 509.65 511.65 517.4 511.65 571.65 562 622 562 650.75 598.4 650.75 598.4 614.8 570.35 586.75 541.65 586.75 521.3 566.4 521.3 508.25 513.3 500.25 523.05 490.5 540.25 507.7 540.25 544.9 609.7 614.35 609.7 656.85 631.35 656.85 631.35 619.9 622.5 611.05 622.5 528.55 640 511.05 640 476.05 622.5 493.55 622.5 439.9 532.05 349.45 532.05 271.05 576.6 226.45 640 289.85 640 245.3 598.9 204.2 621.2 181.9 631.35 170.7 631.35 -41.8 609.7 -41.8 609.7 174.3 510.2 273.8 510.2 375.9 546.15 411.85 495.25 462.7 515.4 482.85 439.4 558.85 439.4 464.65 472.45 431.65 451.75 410.95 467.7 395 467.7 209 538.05 209 598.4 148.65 598.4 -10 562 -10 562 149.9 524.25 187.65 447.7 187.65 447.7 67.45 397.3 17.05 397.3 -5.65
+M 413.65 358
+L 406.4 365.25 406.2 365.35 394.3 353.45 394.3 257.55 413.65 276.9 413.65 358
+M 570.8 442.75
+L 570.75 407.35 615.75 452.35 615.75 500.3 609.15 506.9 609.15 597.7 565.5 554.05 565.5 499.2 539.9 473.6 570.8 442.75
+M 558.05 423.75
+L 558.05 440.2 532.3 466 522.15 455.85 556.15 421.85 558.05 423.75
+M 440.95 421.75
+L 455.4 436.2 397.3 494.3 397.3 465.4 440.95 421.75
+M 397.3 506.75
+L 424.15 479.95 424.15 574.1 397.3 600.95 397.3 506.75
+M 55 -10
+L 6.25 -10 6.25 70.05 32.4 96.2 32.4 233.25 150.1 350.95 150.1 391.05 56.15 485 56.15 529.1 6.25 579 6.25 656.6 55 656.6 55 567.9 106.9 516.05 150 559.15 150 656.6 191.25 656.6 191.25 576.65 118.75 504.15 145.85 477.05 274.4 605.6 274.4 648.2 287.45 648.2 287.45 583.15 202.1 497.8 202.1 467.35 178.85 444.1 191.25 431.65 191.25 139.45 232.15 180.35 232.15 388.1 311.8 467.75 311.8 656.6 339.45 656.6 339.45 451.65 291.45 403.65 291.45 252.65 254 215.2 254 64.2 287.45 30.75 287.45 -12.5 274.4 -12.5 274.4 19.5 232.15 61.75 232.15 155.05 191.25 114.15 191.25 -10 150 -10 150 277.9 146.7 281.15 92.5 226.95 92.5 107.85 55 70.35 55 -10
+M 55 91.3
+L 82.4 118.7 82.4 241.25 75.4 248.2 55 227.8 55 91.3
+M 92.5 241.55
+L 139.4 288.45 127.55 300.35 92.5 265.3 92.5 241.55
+M 254 228
+L 273.65 247.65 273.65 385.85 254 366.2 254 228 Z"/>
+</g>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#bg_0_Layer2_0_FILL"/>
+</g>
+
+<mask id="Mask_Mask_1">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Mask_bg_0_1_MASK_0_FILL"/>
+</g>
+</mask>
+
+<g mask="url(#Mask_Mask_1)">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#bg_0_Layer1_0_FILL"/>
+</g>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 640,0) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#bg_0_Layer2_0_FILL"/>
+</g>
+
+<mask id="Mask_Mask_2">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Mask_bg_0_1_MASK_0_FILL"/>
+</g>
+</mask>
+
+<g mask="url(#Mask_Mask_2)">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#bg_0_Layer1_0_FILL"/>
+</g>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -640,0) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#bg_0_Layer2_0_FILL"/>
+</g>
+
+<mask id="Mask_Mask_3">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Mask_bg_0_1_MASK_0_FILL"/>
+</g>
+</mask>
+
+<g mask="url(#Mask_Mask_3)">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#bg_0_Layer1_0_FILL"/>
+</g>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,-640) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#bg_0_Layer2_0_FILL"/>
+</g>
+
+<mask id="Mask_Mask_4">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Mask_bg_0_1_MASK_0_FILL"/>
+</g>
+</mask>
+
+<g mask="url(#Mask_Mask_4)">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#bg_0_Layer1_0_FILL"/>
+</g>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 640,-640) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#bg_0_Layer2_0_FILL"/>
+</g>
+
+<mask id="Mask_Mask_5">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Mask_bg_0_1_MASK_0_FILL"/>
+</g>
+</mask>
+
+<g mask="url(#Mask_Mask_5)">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#bg_0_Layer1_0_FILL"/>
+</g>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -640,-640) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#bg_0_Layer2_0_FILL"/>
+</g>
+
+<mask id="Mask_Mask_6">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Mask_bg_0_1_MASK_0_FILL"/>
+</g>
+</mask>
+
+<g mask="url(#Mask_Mask_6)">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#bg_0_Layer1_0_FILL"/>
+</g>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,640) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#bg_0_Layer2_0_FILL"/>
+</g>
+
+<mask id="Mask_Mask_7">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Mask_bg_0_1_MASK_0_FILL"/>
+</g>
+</mask>
+
+<g mask="url(#Mask_Mask_7)">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#bg_0_Layer1_0_FILL"/>
+</g>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 640,640) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#bg_0_Layer2_0_FILL"/>
+</g>
+
+<mask id="Mask_Mask_8">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Mask_bg_0_1_MASK_0_FILL"/>
+</g>
+</mask>
+
+<g mask="url(#Mask_Mask_8)">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#bg_0_Layer1_0_FILL"/>
+</g>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -640,640) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#bg_0_Layer2_0_FILL"/>
+</g>
+
+<mask id="Mask_Mask_9">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Mask_bg_0_1_MASK_0_FILL"/>
+</g>
+</mask>
+
+<g mask="url(#Mask_Mask_9)">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#bg_0_Layer1_0_FILL"/>
+</g>
+</g>
+</g>
+</svg>
