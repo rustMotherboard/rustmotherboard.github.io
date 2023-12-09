@@ -27,7 +27,7 @@ $RECYCLE.BIN/
 *.lnk
 
 ### VisualStudioCode ###
-.vscode/*      # Maybe .vscode/**/* instead - see comments
+.vscode/**/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -41,3 +41,4 @@ $RECYCLE.BIN/
 assets/php
 localhost.bat
 .vscode
+rustmotherboard.github.io.code-workspace
