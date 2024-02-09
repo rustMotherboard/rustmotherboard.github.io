@@ -25,7 +25,8 @@
 }
 
 /* General Styles */
-body {
+body,
+main {
 	margin: 0;
 }
 
@@ -37,6 +38,7 @@ div.mainflex {
 
 html {
 	background-image: url("/assets/img/bg.svg");
+	background-color: #1b0018
 }
 
 div.main {
@@ -62,6 +64,11 @@ li {
 	font-family: ProFontWindows;
 	font-size: 20px;
 	color: #fff;
+}
+
+th {
+	color: #ff8af5;
+	background-color: #1b00189c;
 }
 
 /* td {
@@ -102,7 +109,16 @@ h4 {
 table {
 	table-layout: fixed;
 	width: 100%;
+	/* table-layout: fixed;
+	display: block;
+	overflow-x: auto;
+	white-space: normal; */
 }
+
+/* table tbody {
+	display: table;
+	width: 100%;
+} */
 
 th,
 td {
@@ -137,20 +153,36 @@ img {
 	all: revert;
 } */
 
+/* Input */
+
+input {
+	border: none;
+	border-bottom: 2px solid #FF8AF5;
+	background-color: transparent;
+	color: #ff8af5;
+	font-family: ProFontWindows;
+}
+
+::placeholder {
+	font-family: ProFontWindows;
+}
+
 /* Buttons */
-button {
+button.comic {
 	padding: 4px;
 	border: none;
 	background-color: #000;
 	color: #ffffff;
+	transition: 0.2s;
 }
 
-button:hover {
+button.comic:hover {
 	background-color: #FF8AF5;
 	color: #000;
 	border: none;
 	outline: none;
 	cursor: pointer;
+	transition: 0.2s;
 }
 
 /* Header Styles */
@@ -247,7 +279,7 @@ a:hover {
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	animation-name: ticker;
-	animation-duration: 100s;
+	animation-duration: 200s;
 }
 
 .ticker-transition:hover {
@@ -265,7 +297,6 @@ a:hover {
 /* Rainbow Text */
 .rainbow {
 	background-image: linear-gradient(90deg, rgba(255, 0, 0, 1) 0, rgba(255, 154, 0, 1) 10%, rgba(208, 222, 33, 1) 20%, rgba(79, 220, 74, 1) 30%, rgba(63, 218, 216, 1) 40%, rgba(47, 201, 226, 1) 50%, rgba(28, 127, 238, 1) 60%, rgba(95, 21, 242, 1) 70%, rgba(186, 12, 248, 1) 80%, rgba(251, 7, 217, 1) 90%, rgba(255, 0, 0, 1) 100%);
-	-webkit-background-clip: text;
 	background-clip: text;
 	color: transparent;
 	animation: rbmove 100s linear infinite;

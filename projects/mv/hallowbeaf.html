@@ -11,7 +11,7 @@
 		$(document).ready(function () {
 			// variables for title and pages
 			// also change back button path
-			var title = "Mindvisor | Hallowbeaf Comic";
+			var title = "mindvisor | hallowbeaf comic";
 			var page = 1;
 			var max = 9;
 
@@ -25,6 +25,7 @@
 				filename = ("000" + page).slice(-3);
 				$("#comic").attr("src", "/assets/img/project/hallowbeaf/hallobeaf_" + filename + ".png");
 				updateTitle();
+				$("#goto").val(page);
 			};
 
 			function imgPos() {
@@ -51,60 +52,117 @@
 				updateImg();
 			}
 
-			function pageChange() {
-				var x = parseInt(document.getElementById("goto").value);
-				if (x >= 1 && x <= max) {
-					page = x;
-					updateImg();
-				} else {
-					console.log("Invalid page number");
-				}
-			}
+            function pageChange() {
+                var x = parseInt(document.getElementById("goto").value);
+                if (x >= 1 && x <= max) {
+                    page = x;
+                    updateImg();
+                } else {
+                    console.log("invalid page number!");
+                }
+            }
 
-			$('#forward').on('click', imgPos);
-			$('#back').on('click', imgNeg);
-			$('#forwardest').on('click', img2Pos);
-			$('#backest').on('click', img2Neg);
+            function savePage() {
+                var key = 'page_' + window.location.pathname;
+                localStorage.setItem(key, page);
+                $('#save').text("saved!");
+                setTimeout(function () { $('#save').text("save"); }, 2000); // Revert back to original text after 2 seconds
+            }
 
-			$("button[onclick='pageChange()']").on('click', pageChange);
+            function loadPage() {
+                var key = 'page_' + window.location.pathname;
+                var savedPage = localStorage.getItem(key);
+                if (savedPage) {
+                    page = parseInt(savedPage);
+                    updateImg();
+                    $('#load').text("loaded!");
+                    setTimeout(function () { $('#load').text("load"); }, 2000); // Revert back to original text after 2 seconds
+                } else {
+                    $('#load').text("data not found!");
+                    setTimeout(function () { $('#load').text("load"); }, 2000); // Revert back to original text after 2 seconds
+                }
+            }
 
-			updateImg();
+            function showConfirm() {
+                $('#clear').hide();
+                $('#clear-confirm').show();
+            }
 
-			$("input").attr("max", max);
-		});
-	</script>
+            function hideConfirm() {
+                $('#clear').show();
+                $('#clear-confirm').hide();
+            }
+
+            function clearPage() {
+                var key = 'page_' + window.location.pathname;
+                localStorage.removeItem(key);
+                $('#clear').text("data cleared!");
+                setTimeout(function () { $('#clear').text("clear"); }, 2000); // Revert back to original text after 2 seconds
+                hideConfirm();
+            }
+
+            $('#forward').on('click', imgPos);
+            $('#back').on('click', imgNeg);
+            $('#forwardest').on('click', img2Pos);
+            $('#backest').on('click', img2Neg);
+
+            $('#save').on('click', savePage);
+            $('#load').on('click', loadPage);
+
+            $('#clear').on('click', showConfirm);
+            $('#yes').on('click', clearPage);
+            $('#no').on('click', hideConfirm);
+
+            $("button[onclick='pageChange()']").on('click', pageChange);
+
+            updateImg();
+
+            $("input").attr("max", max);
+        });
+    </script>
 </head>
 
-<body>
-	<div class="main">
+<main>
+    <div class="main">
 		<h1>mindvisor: hallowbeaf comic</h1>
 		<hr>
 		<p>this is the comic i made for landofspikes' BEAFfest! an every-now-and-again event hosted by bentl n friends :] earlier this month (oct 2023) i started making a comic that uses characters from <a href="/projects/mv/mindvisor.html">mindvisor</a> for a small comic about halloween. while it says it isnt done on the thing, i do have plans to finally get it done since i've regained the will to work on it!</p>
 		<p>PLEASE check out BEAFfest!! there's 50+ really good films by a lot of people, and the community is very supportive of everyone and the work done for beaf and non-beaf alike! please!!! indie art is awesome!!!</p>
 		<p><a href="https://thebeaf.org/" target="_blank" rel="noopener">the link that sends you to beaf world</a></p>
 		<div class="center">
-			<img id="comic" class="figure" style="vertical-align:top;" src="">
-			<br>
-			<button id="backest">
-				◀◀
-			</button>
-			<button id="back">
-				◀
-			</button>
-			<input id="goto" type="number" min="1" max="1" value="1">
-			<button onclick="pageChange()">
-				GO
-			</button>
-			<button id="forward">
-				▶
-			</button>
-			<button id="forwardest">
-				▶▶
-			</button>
-		</di>
-		<!-- change this too -->
-		<p><a href="/projects.html"><img src="/assets/img/backimg.svg"></a></p>
-	</div>
-</body>
+            <img id="comic" class="figure" style="vertical-align:top;" src="">
+            <br>
+            <button id="backest" class="comic">
+                ◀◀
+            </button>
+            <button id="back" class="comic">
+                ◀
+            </button>
+            <input id="goto" type="number" min="1" max="1" value="1" size="8">
+            <button onclick="pageChange()" class="comic">
+                go!
+            </button>
+            <button id="forward" class="comic">
+                ▶
+            </button>
+            <button id="forwardest" class="comic">
+                ▶▶
+            </button>
+            <br>
+            <button id="save" class="comic">save</button>
+            <button id="load" class="comic">load</button>
+            <button id="clear" class="comic">clear</button>
+            <div id="clear-confirm" style="display: none;">
+                <button id="yes" class="comic">
+                    clear?
+                </button>
+                <button id="no" class="comic">
+                    cancel
+                </button>
+            </div>
+        </div>
 
-</html>
+        <p><a href="/projects.html"><img src="/assets/img/backimg.svg"></a></p>
+
+    </div>
+</main>

@@ -5,6 +5,91 @@
     <title>rustMotherboard</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="/assets/style/main.css">
+    <script>
+        window.onload = function () {
+            var iframe = document.getElementById('siteframe');
+            iframe.onload = function () {
+                // Set the parent document's title to the iframe's title
+                var iframeTitle = iframe.contentWindow.document.title;
+                document.title = iframeTitle === 'rustMotherboard' ? iframeTitle : iframeTitle + ' - rustMotherboard';
+
+                // Create a MutationObserver to watch for changes in the iframe's title
+                var target = iframe.contentWindow.document.querySelector('title');
+                var observer = new MutationObserver(function (mutations) {
+                    mutations.forEach(function (mutation) {
+                        var newTitle = mutation.target.textContent;
+                        document.title = newTitle === 'rustMotherboard' ? newTitle : newTitle + ' - rustMotherboard';
+                    });
+                });
+
+                // Start observing the target node for configured mutations
+                var config = { childList: true };
+                observer.observe(target, config);
+            }
+        }
+    </script>
+    <script>
+        // Define originalButton in the global scope
+        var originalButton;
+    
+        window.onload = function() {
+            originalButton = document.getElementById("findButton");
+        }
+    
+        function findPage() {
+            // Create an input field and two buttons
+            var input = document.createElement("input");
+            var goButton = document.createElement("button");
+            var cancelButton = document.createElement("button");
+    
+            // Set their properties
+            input.type = "text";
+            input.placeholder = "enter path...";
+            goButton.textContent = "go!";
+            cancelButton.textContent = "cancel";
+
+            goButton.className = "comic";
+            cancelButton.className = "comic";
+    
+            // Define what happens when the "Go" button is clicked
+            goButton.onclick = function() {
+                var path = input.value;
+                if (path !== 'index.html' && path !== 'index') {
+                    document.getElementById("siteframe").src = path;
+                    document.getElementById("siteframe").style.display = "block";
+                } else {
+                    alert("can't load the index! that'd cause an infinite loop! run 'ifindex' instead or press the home button.");
+                }
+                revertFindButton();
+            };
+    
+            // Define what happens when the "Cancel" button is clicked
+            cancelButton.onclick = revertFindButton;
+    
+            // Replace the "find" button with the input field and buttons
+            originalButton.parentNode.replaceChild(input, originalButton);
+            input.parentNode.appendChild(goButton);
+            input.parentNode.appendChild(cancelButton);
+        }
+    
+        function revertFindButton() {
+            // Remove the input field and buttons
+            var input = document.querySelector(".hbutton input");
+            var buttons = document.querySelectorAll(".hbutton button");
+            for (var i = 0; i < buttons.length; i++) {
+                input.parentNode.removeChild(buttons[i]);
+            }
+    
+            // Save the parent node
+            var parentNode = input.parentNode;
+    
+            // Remove the input field
+            parentNode.removeChild(input);
+    
+            // Insert the original "find" button
+            parentNode.appendChild(originalButton);
+        }
+    </script>
     <!-- <script src="/assets/style/jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function () {
@@ -44,20 +129,31 @@
     </script> -->
 </head>
 
-<body>
+<main>
     <div class="mainflex">
         <header>
             <a id="top"></a>
             <div class="headerflex">
-                <div class="hf-logo"><img src="/assets/branding/rmb_logo_p.svg" height="100%" style="float: left">12/17/2023</div>
+                <div class="hf-logo"><img src="/assets/branding/rmb_logo_p.svg" height="100%" style="float: left">feb 8th<br>2024</div>
                 <div class="hbutton"><a href="/ifindex.html" target="siteframe">home</a></div>
                 <div class="hbutton"><a href="/projects.html" target="siteframe">projects</a></div>
                 <div class="hbutton"><a href="/art.html" target="siteframe">art</a></div>
                 <div class="hbutton"><a href="/misc.html" target="siteframe">misc</a></div>
+                <div class="hbutton"><button id="findButton" style="cursor: pointer; border: none; background-color: transparent; color: #ff8af5; font-family: Ferrite-core_med; font-size: 16px; padding: 0px;" onclick="findPage()">find</button></a></div>
             </div>
             <div class="ticker-container">
                 <div class="ticker-wrapper">
                     <div class="ticker-transition">
+                        <div class="ticker-item">hey! it's that site! welcome back to this website... what's new with it? there's not much groundbreaking new content <small>(yet)</small> other than the introduction of some slight quality of life features, which i'll explain now!</div>
+                        <div class="ticker-item">the first new feature you'll immediately notice is the new 'find' button! this is essentially my patchwork solution for getting to a specific page on the website without having to navigate to it all the time. instead, you can just click on 'find', type in the path to the file, and you're set!</div>
+                        <div class="ticker-item">so say you want to go to CFAN6 C2.. all you need to do now is click on find, type in 'projects/cfan6/2', and you'll be there probably faster! probably not by that fast, but it's definitley convenient if you just check this site for something new.</div>
+                        <div class="ticker-item">if you do try that, you might also notice the three new buttons below the comic page navigation! i've updated the comic framework to now support <b>save and loading!</b> this uses your browser's local storage feature to help keep track what page you're on.</div>
+                        <div class="ticker-item">do note that it'll only use local storage to keep track of the page you're on and it only records it ONCE you click the save button.</div>
+                        <div class="ticker-item">...also yeah it's kinda like homestuck</div>
+                        <div class="ticker-item">the page number in the page jumper in the middle now automatically updates to the page number its actually on, so it seems less jarring. it also looks nicer in general!</div>
+                        <div class="ticker-item">the next update adds some new stuff to the misc page if you wanna check that out. introduces a new category for seperate pages, such as the return of useful links, and the return of the changelog, now renamed to news ticker history. there may also be a webTV in there. please double check for me!</div>
+                        <div class="ticker-item">but yeah that should be it. have a wonderful world thank you</div>
+                        <div class="ticker-item"><b>|>| PREVIOUS NEWS |>|</b></div>
                         <div class="ticker-item">NEW UPDATE: the <a href="/art.html" target="siteframe">art page!</a> i've finally gotten around to posting what my art looks like on here, in the event my social media pages don't cut it... right now it contains mindvisor and puyopunk art, but i'll update it with any new stuff i crank out</div>
                         <div class="ticker-item">by the way! did you know that there's a new background now? it's also svg format, so it's scalable! it's got a nice texture to it...'</div>
                         <div class="ticker-item">the about page is also merged with the home page now! so all the buttons (+ new userbars!!!) are there now for convenience.</div>
@@ -65,17 +161,11 @@
                         <div class="ticker-item">there's also a fixed width now! so if you got one of those WIDE monitors, now the site should actually be more readable instead of it all being one line!</div>
                         <div class="ticker-item">bonus!! new background! it's scalable, and fancy! no more of that solid color, now you get to enjoy two solid colors for your viewing entertainment!</div>
                         <div class="ticker-item">for the time being i've commented out the footer code, ended up being pretty distracting (and the only use for jquery), so until i know what to do with it i'll leave it like that</div>
-                        <div class="ticker-item"><b>|>| PREVIOUS NEWS |>|</b></div>
-                        <div class="ticker-item">hii! apologies for not updating. been busy drawing. projects page has been updated!!</div>
-                        <div class="ticker-item">not much else new, but i'll be sure to try and update this more than once every year! key word here is try</div>
-                        <div class="ticker-item">in other news i've recently been posting stuff to tumblr and the public server landofspikes more often! i've got it linked somewhere. can you find my secret super link?</div>
-                        <div class="ticker-item">one last thing actually! the website had a massive overhaul in how you access pages. now instead of going to the pages entirely, you go through an iframe for them now! this actually makes it so that you'll probably finally read this news ticker now!</div>
-                        <div class="ticker-item">that's all from me for now! have fun with the place! contact me if anything's a bit silly for you</div>
                     </div>
                 </div>
             </div>
         </header>
-        <iframe class="siteflex" name="siteframe" src="/ifindex.html"></iframe>
+        <iframe class="siteflex" name="siteframe" id="siteframe" src="/ifindex.html"></iframe>
         <!-- <footer>
             <div class="headerflex" style="padding: 4px;">
                 <img id="randombanner" width="100%">
@@ -83,6 +173,6 @@
             <div id="showFooter" style="display: none; text-align: center; color: #ff8af5; font-family: Ferrite-Core_reg; background-color: black;">show banner</div>
         </footer> -->
     </div>
-</body>
+</main>
 
 </html>
