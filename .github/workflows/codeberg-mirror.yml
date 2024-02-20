@@ -15,4 +15,4 @@ jobs:
         with:
           REMOTE: "https://codeberg.org/rustMotherboard/pages.git"
           GIT_USERNAME: rustMotherboard
-          GIT_PASSWORD: ${{ secrets.GIT_PASSWORD }}
+          GIT_TOKEN: ${{ secrets.GIT_PASSWORD }}
