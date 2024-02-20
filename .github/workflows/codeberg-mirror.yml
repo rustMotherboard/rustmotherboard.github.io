@@ -14,5 +14,5 @@ jobs:
       - uses: spyoungtech/mirror-action@v0.5.1
         with:
           REMOTE: "https://codeberg.org/rustMotherboard/pages.git"
-          GIT_USERNAME: rustmotherboard@outlook.com
+          GIT_USERNAME: rustMotherboard
           GIT_PASSWORD: ${{ secrets.GIT_PASSWORD }}
