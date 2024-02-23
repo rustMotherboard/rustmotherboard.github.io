@@ -90,43 +90,6 @@
             parentNode.appendChild(originalButton);
         }
     </script>
-    <!-- <script src="/assets/style/jquery-3.6.0.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            const images = Array.from({ length: 24 }, (_, i) => `/assets/img/footer/headerimg${String(i + 1).padStart(4, '0')}.png`);
-            let currentIndex = Math.floor(Math.random() * images.length);
-            const intervalTime = 10000; // change this to modify the interval
-            const fadeDuration = 1000; // change this to modify the fade duration
-
-            const $randomBanner = $('#randombanner');
-            $randomBanner.attr('src', images[currentIndex]);
-
-            let intervalId = setInterval(changeImage, intervalTime);
-
-            function changeImage() {
-                let newIndex;
-                do {
-                    newIndex = Math.floor(Math.random() * images.length);
-                } while (newIndex === currentIndex);
-                currentIndex = newIndex;
-
-                $randomBanner.stop(true, true).fadeOut(fadeDuration, function () {
-                    $(this).attr('src', images[currentIndex]).fadeIn(fadeDuration);
-                });
-            }
-
-            // toggle visibility of the image when clicked
-            $('#randombanner, #showFooter').click(function () {
-                $randomBanner.stop(true, true);
-                $('#randombanner, #showFooter').toggle();
-                if ($randomBanner.is(':visible')) {
-                    intervalId = setInterval(changeImage, intervalTime);
-                } else {
-                    clearInterval(intervalId);
-                }
-            });
-        });
-    </script> -->
 </head>
 
 <main>
@@ -134,17 +97,25 @@
         <header>
             <a id="top"></a>
             <div class="headerflex">
-                <div class="hf-logo"><img src="/assets/branding/rmb_logo_p.svg" height="100%" style="float: left">feb 21st<br>2024</div>
+                <div class="hf-logo"><img src="/assets/branding/rmb_logo_p.svg" height="100%" style="float: left">feb 22nd<br>2024</div>
                 <div class="hbutton"><a href="/ifindex.html" target="siteframe">home</a></div>
                 <div class="hbutton"><a href="/projects.html" target="siteframe">projects</a></div>
                 <div class="hbutton"><a href="/art.html" target="siteframe">art</a></div>
+                <div class="hbutton"><a href="/blog.html" target="siteframe">blog</a></div>
                 <div class="hbutton"><a href="/misc.html" target="siteframe">misc</a></div>
                 <div class="hbutton"><button id="findButton" style="cursor: pointer; border: none; background-color: transparent; color: #ff8af5; font-family: Ferrite-core_med; font-size: 16px; padding: 0px;" onclick="findPage()">find</button></a></div>
             </div>
             <div class="ticker-container">
                 <div class="ticker-wrapper">
                     <div class="ticker-transition">
-                        <div class="ticker-item">hey! it's that site! welcome back to this website... what's new with it? there's not much groundbreaking new content <small>(yet)</small> other than the introduction of some slight quality of life features, which i'll explain now!</div>
+                        <div class="ticker-item">oh man do these buttons keep on piling <i>up.</i> welcome to my website! the latest addition is the long awaited return of the blog! now one may ask "why would you bring this back? under any circumstance?" simple reason..</div>
+                        <div class="ticker-item">tumblr's recently taken a nosedive into being the most vile place for a trans person to be in right now, given the ceo (photomatt)'s whole "hating trans people very much and calling the fbi on them" type stuff. cohost ain't better either. you know that discord cub mod guy? yeah they work on cohost's staff. no go.</div>
+                        <div class="ticker-item">so what happens when literally no social media is viable or humane to post to? simple! just do it on your own damn site!</div>
+                        <div class="ticker-item">that's where the return of the blog comes into play. like last time don't really expect posts DAILY again. it'll be more long winded posts whenever i got a story to tell. for archivals sake (and also so that you have stuff to read) i've reformatted and included all of the old blog posts from before i took the section of the site out when rebranding</div>
+                        <div class="ticker-item">regarding the tumblr feed on the index...eh... odds are that'll be replaced once i find another thing to put there. who knows ill probably just put the chatbox there instead. i hear pillowfort's pretty good but i do not believe they have a surfing waves feed equivalent? which isn't very convenient in my case</div>
+                        <div class="ticker-item">eh, either way, blog's back. minus a few more misc pages i believe this marks most of the sites features finally getting back online! i swear if i have to redesign this site a 5th time i'm definitley gonna look into not doing that. have fun!</div>
+                        <div class="ticker-item"><b>|>| PREVIOUS NEWS |>|</b></div>
+                        <div class="ticker-item">hey! it's that site! welcome back to this website... what's new with it? there's not much groundbreaking new content <span style="font-size: smaller;">(yet)</span> other than the introduction of some slight quality of life features, which i'll explain now!</div>
                         <div class="ticker-item">the first new feature you'll immediately notice is the new 'find' button! this is essentially my patchwork solution for getting to a specific page on the website without having to navigate to it all the time. instead, you can just click on 'find', type in the path to the file, and you're set!</div>
                         <div class="ticker-item">so say you want to go to CFAN6 C2.. all you need to do now is click on find, type in 'projects/cfan6/2', and you'll be there probably faster! probably not by that fast, but it's definitley convenient if you just check this site for something new.</div>
                         <div class="ticker-item">if you do try that, you might also notice the three new buttons below the comic page navigation! i've updated the comic framework to now support <b>save and loading!</b> this uses your browser's local storage feature to help keep track what page you're on.</div>
@@ -153,14 +124,6 @@
                         <div class="ticker-item">the page number in the page jumper in the middle now automatically updates to the page number its actually on, so it seems less jarring. it also looks nicer in general!</div>
                         <div class="ticker-item">the next update adds some new stuff to the misc page if you wanna check that out. introduces a new category for seperate pages, such as the return of useful links, and the return of the changelog, now renamed to news ticker history. there may also be a webTV in there. please double check for me!</div>
                         <div class="ticker-item">but yeah that should be it. have a wonderful world thank you</div>
-                        <div class="ticker-item"><b>|>| PREVIOUS NEWS |>|</b></div>
-                        <div class="ticker-item">NEW UPDATE: the <a href="/art.html" target="siteframe">art page!</a> i've finally gotten around to posting what my art looks like on here, in the event my social media pages don't cut it... right now it contains mindvisor and puyopunk art, but i'll update it with any new stuff i crank out</div>
-                        <div class="ticker-item">by the way! did you know that there's a new background now? it's also svg format, so it's scalable! it's got a nice texture to it...'</div>
-                        <div class="ticker-item">the about page is also merged with the home page now! so all the buttons (+ new userbars!!!) are there now for convenience.</div>
-                        <div class="ticker-item"><a href="/misc.html" target="siteframe">misc page</a> is also back...it ain't funny featured yet, but it should </div>
-                        <div class="ticker-item">there's also a fixed width now! so if you got one of those WIDE monitors, now the site should actually be more readable instead of it all being one line!</div>
-                        <div class="ticker-item">bonus!! new background! it's scalable, and fancy! no more of that solid color, now you get to enjoy two solid colors for your viewing entertainment!</div>
-                        <div class="ticker-item">for the time being i've commented out the footer code, ended up being pretty distracting (and the only use for jquery), so until i know what to do with it i'll leave it like that</div>
                     </div>
                 </div>
             </div>
