@@ -31,47 +31,62 @@
     <script>
         // Define originalButton in the global scope
         var originalButton;
-    
-        window.onload = function() {
+
+        window.onload = function () {
             originalButton = document.getElementById("findButton");
         }
-    
+
         function findPage() {
             // Create an input field and two buttons
             var input = document.createElement("input");
             var goButton = document.createElement("button");
             var cancelButton = document.createElement("button");
-    
+
             // Set their properties
             input.type = "text";
             input.placeholder = "enter path...";
+            
             goButton.textContent = "go!";
-            cancelButton.textContent = "cancel";
-
             goButton.className = "comic";
+            goButton.id = "goButton";
+
+            cancelButton.textContent = "cancel";
             cancelButton.className = "comic";
-    
+
+            // Execute a function when the user presses a key on the keyboard
+            input.addEventListener("keypress", function (event) {
+                // If the user presses the "Enter" key on the keyboard
+                if (event.key === "Enter") {
+                    // Cancel the default action, if needed
+                    event.preventDefault();
+                    // Trigger the button element with a click
+                    document.getElementById("goButton").click();
+                }
+            });
+
             // Define what happens when the "Go" button is clicked
-            goButton.onclick = function() {
+            goButton.onclick = function () {
                 var path = input.value;
                 if (path !== 'index.html' && path !== 'index') {
                     document.getElementById("siteframe").src = path;
                     document.getElementById("siteframe").style.display = "block";
                 } else {
-                    alert("can't load the index! that'd cause an infinite loop! run 'ifindex' instead or press the home button.");
+                    path = "ifindex.html"
+                    document.getElementById("siteframe").src = path;
+                    document.getElementById("siteframe").style.display = "block";
                 }
                 revertFindButton();
             };
-    
+
             // Define what happens when the "Cancel" button is clicked
             cancelButton.onclick = revertFindButton;
-    
+
             // Replace the "find" button with the input field and buttons
             originalButton.parentNode.replaceChild(input, originalButton);
             input.parentNode.appendChild(goButton);
             input.parentNode.appendChild(cancelButton);
         }
-    
+
         function revertFindButton() {
             // Remove the input field and buttons
             var input = document.querySelector(".hbutton input");
@@ -79,13 +94,13 @@
             for (var i = 0; i < buttons.length; i++) {
                 input.parentNode.removeChild(buttons[i]);
             }
-    
+
             // Save the parent node
             var parentNode = input.parentNode;
-    
+
             // Remove the input field
             parentNode.removeChild(input);
-    
+
             // Insert the original "find" button
             parentNode.appendChild(originalButton);
         }
@@ -97,7 +112,7 @@
         <header>
             <a id="top"></a>
             <div class="headerflex">
-                <div class="hf-logo"><img src="/assets/branding/rmb_logo_p.svg" height="100%" style="float: left">mar 7th<br>2024</div>
+                <div class="hf-logo"><img src="/assets/branding/rmb_logo_p.svg" height="100%" style="float: left">mar 14th<br>2024</div>
                 <div class="hbutton"><a href="/ifindex.html" target="siteframe">home</a></div>
                 <div class="hbutton"><a href="/projects.html" target="siteframe">projects</a></div>
                 <div class="hbutton"><a href="/art.html" target="siteframe">art</a></div>

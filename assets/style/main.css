@@ -47,6 +47,7 @@ div.main {
 }
 
 p,
+dt,
 h1,
 h2,
 h3,
@@ -64,7 +65,8 @@ p.boxed {
 
 p,
 td,
-li {
+li,
+dd {
 	text-align: justify;
 	overflow-wrap: break-word;
 	font-family: ProFontWindows;
@@ -95,7 +97,8 @@ th {
 h1,
 h2,
 h3,
-h4 {
+h4,
+dt {
 	text-align: justify;
 	overflow-wrap: break-word;
 	color: #ff8af5;
@@ -112,7 +115,8 @@ h2 {
 }
 
 h3,
-h4 {
+h4,
+dt {
 	font-family: Ferrite-Core_light;
 }
 
@@ -211,7 +215,7 @@ div.hbutton {
 }
 
 div.hf-logo {
-	background-image: url("/assets/img/rmb_headerbg.png");
+	background-image: url("/assets/img/rmb_headerbg.svg");
 	background-repeat: no-repeat;
 	background-color: #1b0018;
 	width: 100%;
