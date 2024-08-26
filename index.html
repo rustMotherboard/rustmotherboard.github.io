@@ -2,25 +2,26 @@
 <html lang="en">
 
 <!-- hi im https://lethallava.land/@rustMotherboard -->
+
 <head>
     <!--embed stuff-->
     <!-- Primary Meta Tags -->
     <title>rustMotherboard</title>
-    <meta name="title" content="rustMotherboard" />
-    <meta name="description" content="personal website + art gallery" />
+    <meta name="title" content="rustMotherboard"/>
+    <meta name="description" content="personal website + art gallery"/>
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://rustmotherboard.codeberg.page/" />
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://rustmotherboard.codeberg.page/"/>
     <meta property="og:title" content="rustMotherboard" />
-    <meta property="og:description" content="personal website + art gallery" />
+    <meta property="og:description" content="personal website + art gallery"/>
     <meta property="og:image" content="https://rustmotherboard.codeberg.page/assets/branding/rmb_banner.png"/>
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://rustmotherboard.codeberg.page/" />
+    <meta property="twitter:card" content="summary_large_image"/>
+    <meta property="twitter:url" content="https://rustmotherboard.codeberg.page/"/>
     <meta property="twitter:title" content="rustMotherboard" />
-    <meta property="twitter:description" content="personal website + art gallery" />
+    <meta property="twitter:description" content="personal website + art gallery"/>
     <meta property="twitter:image" content="https://rustmotherboard.codeberg.page/assets/branding/rmb_banner.png"/>
 
     <!-- Meta Tags Generated with https://metatags.io -->
@@ -36,6 +37,42 @@
 
         window.onload = function () {
             originalButton = document.getElementById("findButton");
+
+            var iframe = document.getElementById('siteframe');
+            iframe.onload = function () {
+                const iframeDocument = iframe.contentDocument;
+
+                // Set the parent document's title to the iframe's title
+                var iframeTitle = iframe.contentWindow.document.title;
+                document.title = iframeTitle === 'rustMotherboard' ? iframeTitle : iframeTitle + ' - rustMotherboard';
+
+                // Create a MutationObserver to watch for changes in the iframe's title
+                var target = iframe.contentWindow.document.querySelector('title');
+                var observer = new MutationObserver(function (mutations) {
+                    mutations.forEach(function (mutation) {
+                        var newTitle = mutation.target.textContent;
+                        document.title = newTitle === 'rustMotherboard' ? newTitle : newTitle + ' - rustMotherboard';
+                    });
+                });
+
+                // Start observing the target node for configured mutations
+                var config = { childList: true };
+                observer.observe(target, config);
+
+                // Add click event listeners to images in the iframe
+                iframeDocument.querySelectorAll('img').forEach(img => {
+                    img.addEventListener('click', function () {
+                        if (!this.classList.contains('spin')) {
+                            this.classList.add('spin');
+                            this.classList.add('no-hover');
+                            setTimeout(() => {
+                                this.classList.remove('spin');
+                                this.classList.remove('no-hover');
+                            }, 1000); // Duration of the animation
+                        }
+                    });
+                });
+            };
         }
 
         function findPage() {
@@ -141,46 +178,7 @@
                 </div>
             </div>
         </header>
-        <iframe class="siteflex" name="siteframe" id="siteframe" src="/ifindex.html"></iframe>
-        <script>
-            window.onload = function () {
-                var iframe = document.getElementById('siteframe');
-                iframe.onload = function () {
-                    const iframeDocument = iframe.contentDocument;
-        
-                    // Set the parent document's title to the iframe's title
-                    var iframeTitle = iframe.contentWindow.document.title;
-                    document.title = iframeTitle === 'rustMotherboard' ? iframeTitle : iframeTitle + ' - rustMotherboard';
-        
-                    // Create a MutationObserver to watch for changes in the iframe's title
-                    var target = iframe.contentWindow.document.querySelector('title');
-                    var observer = new MutationObserver(function (mutations) {
-                        mutations.forEach(function (mutation) {
-                            var newTitle = mutation.target.textContent;
-                            document.title = newTitle === 'rustMotherboard' ? newTitle : newTitle + ' - rustMotherboard';
-                        });
-                    });
-        
-                    // Start observing the target node for configured mutations
-                    var config = { childList: true };
-                    observer.observe(target, config);
-        
-                    // Add click event listeners to images in the iframe
-                    iframeDocument.querySelectorAll('img').forEach(img => {
-                        img.addEventListener('click', function () {
-                            if (!this.classList.contains('spin')) {
-                                this.classList.add('spin');
-                                this.classList.add('no-hover');
-                                setTimeout(() => {
-                                    this.classList.remove('spin');
-                                    this.classList.remove('no-hover');
-                                }, 1000); // Duration of the animation
-                            }
-                        });
-                    });
-                };
-            };
-        </script>        
+        <iframe class="siteflex" name="siteframe" id="siteframe" src="/ifindex.html"></iframe>    
     </div>
 </main>
 
