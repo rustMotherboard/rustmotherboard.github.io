@@ -24,6 +24,18 @@
 	text-align: center;
 }
 
+/* Responsive Layout */
+@media (max-width: 700px) {
+	table,
+	tr,
+	td {
+		display: inline-block;
+		width: 100%;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
 /* General Styles */
 body,
 main {
@@ -44,6 +56,10 @@ html {
 div.main {
 	max-width: 1300px;
 	margin: auto;
+}
+
+div.loopfooter {
+	background-image: url("/assets/img/rMB_11993.gif");
 }
 
 p,
@@ -161,7 +177,39 @@ tr:nth-child(even) {
 } */
 
 img {
-	max-width: 100%;
+    max-width: 100%;
+}
+
+a img {
+    transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275); /* easeOutBack */
+    /* Animation with custom ease */
+    position: relative; /* Ensure the z-index works */
+}
+
+a img:hover:not(.no-hover):not(.zoomable) {
+    transform: perspective(1000px) rotateX(10deg) scale(1.05);
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+    z-index: 10; /* Move the hovered image to the top */
+}
+
+.no-hover, 
+.zoomable {
+    transition: none;
+	pointer-events: none;
+}
+
+@keyframes spin {
+    0% {
+        transform: perspective(1000px) rotateX(0deg);
+    }
+    100% {
+        transform: perspective(1000px) rotateX(360deg);
+    }
+}
+
+.spin {
+    animation: spin 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) backwards;
+	transform: perspective(1000px) ;
 }
 
 /* .noform {

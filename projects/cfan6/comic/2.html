@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>title</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/assets/style/main.css">
+    <script src="/assets/style/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // variables for title and pages
+            var title = "CFAN6 C2"
+            var page = 1
+            var max = 110
+
+            function updateTitle() {
+                document.title = title + " :: " + page;
+            }
+
+            // comic page here
+            function updateImg() {
+                filename = ("0000" + page).slice(-4)
+                $("#comic").attr("src", "/assets/img/project/cfan6/comic/2/cfan6-2" + filename + ".png");
+                updateTitle();
+                $("#goto").val(page);
+            };
+
+            function imgPos() {
+                if ((page + 1) <= max) {
+                    page++;
+                    updateImg();
+                }
+            };
+
+            function imgNeg() {
+                if ((page - 1) > 0) {
+                    page--;
+                    updateImg();
+                }
+            };
+
+            function img2Pos() {
+                page = max;
+                updateImg();
+            }
+
+            function img2Neg() {
+                page = 1;
+                updateImg();
+            }
+
+            function pageChange() {
+                var x = parseInt(document.getElementById("goto").value);
+                if (x >= 1 && x <= max) {
+                    page = x;
+                    updateImg();
+                } else {
+                    console.log("invalid page number!");
+                }
+            }
+
+            function savePage() {
+                var key = 'page_' + window.location.pathname;
+                localStorage.setItem(key, page);
+                $('#save').text("saved!");
+                setTimeout(function () { $('#save').text("save"); }, 2000); // Revert back to original text after 2 seconds
+            }
+
+            function loadPage() {
+                var key = 'page_' + window.location.pathname;
+                var savedPage = localStorage.getItem(key);
+                if (savedPage) {
+                    page = parseInt(savedPage);
+                    updateImg();
+                    $('#load').text("loaded!");
+                    setTimeout(function () { $('#load').text("load"); }, 2000); // Revert back to original text after 2 seconds
+                } else {
+                    $('#load').text("data not found!");
+                    setTimeout(function () { $('#load').text("load"); }, 2000); // Revert back to original text after 2 seconds
+                }
+            }
+
+            function showConfirm() {
+                $('#clear').hide();
+                $('#clear-confirm').show();
+            }
+
+            function hideConfirm() {
+                $('#clear').show();
+                $('#clear-confirm').hide();
+            }
+
+            function clearPage() {
+                var key = 'page_' + window.location.pathname;
+                localStorage.removeItem(key);
+                $('#clear').text("data cleared!");
+                setTimeout(function () { $('#clear').text("clear"); }, 2000); // Revert back to original text after 2 seconds
+                hideConfirm();
+            }
+
+            $('#forward').on('click', imgPos);
+            $('#back').on('click', imgNeg);
+            $('#forwardest').on('click', img2Pos);
+            $('#backest').on('click', img2Neg);
+
+            $('#save').on('click', savePage);
+            $('#load').on('click', loadPage);
+
+            $('#clear').on('click', showConfirm);
+            $('#yes').on('click', clearPage);
+            $('#no').on('click', hideConfirm);
+
+            $("button[onclick='pageChange()']").on('click', pageChange);
+
+            updateImg();
+
+            $("input").attr("max", max);
+
+            // keyboard shortcuts
+            $(document).keydown(function (e) {
+                switch (e.which) {
+                    case 37: // left arrow key
+                        imgNeg();
+                        break;
+                    case 39: // right arrow key
+                        imgPos();
+                        break;
+                    default:
+                        return; // exit this handler for other keys
+                }
+                e.preventDefault(); // prevent the default action (scroll / move caret)
+            });   
+        });
+    </script>
+</head>
+
+<main>
+    <div class="main">
+
+        <div class="center">
+            <img id="comic" class="figure no-hover" style="vertical-align:top;" src="">
+            <br>
+            <button id="backest" class="comic">
+                ◀◀
+            </button>
+            <button id="back" class="comic">
+                ◀
+            </button>
+            <input id="goto" type="number" min="1" max="1" value="1" size="8">
+            <button onclick="pageChange()" class="comic">
+                go!
+            </button>
+            <button id="forward" class="comic">
+                ▶
+            </button>
+            <button id="forwardest" class="comic">
+                ▶▶
+            </button>
+            <br>
+            <button id="save" class="comic">save</button>
+            <button id="load" class="comic">load</button>
+            <button id="clear" class="comic">clear</button>
+            <div id="clear-confirm" style="display: none;">
+                <button id="yes" class="comic">
+                    clear?
+                </button>
+                <button id="no" class="comic">
+                    cancel
+                </button>
+            </div>
+        </div>
+
+        <p><a href="/projects/cfan6/cfan6.html"><img src="/assets/img/backimg.svg"></a></p>
+
+    </div>
+</main>

@@ -23,7 +23,7 @@
 			// if the number of 0000s is different, change the slice number (default -4) to the amount of 0s there are
 			function updateImg() {
 				filename = ("000" + page).slice(-3);
-				$("#comic").attr("src", "/assets/img/project/hallowbeaf/hallobeaf_" + filename + ".png");
+				$("#comic").attr("src", "/assets/img/project/mindvisor/hallowbeaf/hallobeaf_" + filename + ".png");
 				updateTitle();
 				$("#goto").val(page);
 			};
@@ -118,6 +118,21 @@
             updateImg();
 
             $("input").attr("max", max);
+
+            // keyboard shortcuts
+            $(document).keydown(function (e) {
+                switch (e.which) {
+                    case 37: // left arrow key
+                        imgNeg();
+                        break;
+                    case 39: // right arrow key
+                        imgPos();
+                        break;
+                    default:
+                        return; // exit this handler for other keys
+                }
+                e.preventDefault(); // prevent the default action (scroll / move caret)
+            });   
         });
     </script>
 </head>
@@ -126,11 +141,11 @@
     <div class="main">
 		<h1>mindvisor: hallowbeaf comic</h1>
 		<hr>
-		<p>this is the comic i made for landofspikes' BEAFfest! an every-now-and-again event hosted by bentl n friends :] earlier this month (oct 2023) i started making a comic that uses characters from <a href="/projects/mv/mindvisor.html">mindvisor</a> for a small comic about halloween. while it says it isnt done on the thing, i do have plans to finally get it done since i've regained the will to work on it!</p>
+		<p>this is the comic i made for landofspikes' BEAFfest! an every-now-and-again event hosted by bentl n friends :] during oct 2023 i started making a comic that uses characters from <a href="/projects/mv/mindvisor.html">mindvisor</a> for a small comic about halloween</p>
 		<p>PLEASE check out BEAFfest!! there's 50+ really good films by a lot of people, and the community is very supportive of everyone and the work done for beaf and non-beaf alike! please!!! indie art is awesome!!!</p>
 		<p><a href="https://thebeaf.org/" target="_blank" rel="noopener">the link that sends you to beaf world</a></p>
 		<div class="center">
-            <img id="comic" class="figure" style="vertical-align:top;" src="">
+            <img id="comic" class="figure no-hover" style="vertical-align:top;" src="">
             <br>
             <button id="backest" class="comic">
                 ◀◀
