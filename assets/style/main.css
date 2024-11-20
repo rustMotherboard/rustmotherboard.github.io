@@ -388,3 +388,8 @@ hr {
 	height: 3px;
 	background-color: #FF8AF5;
 }
+
+/* blockquote */
+blockquote {
+	border-left: 3px solid #FF8AF5;
+}
