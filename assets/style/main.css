@@ -192,7 +192,7 @@ a img:hover:not(.no-hover):not(.zoomable) {
     z-index: 10; /* Move the hovered image to the top */
 }
 
-.no-hover, 
+/* .no-hover, 
 .zoomable {
     transition: none;
 	pointer-events: none;
@@ -210,7 +210,7 @@ a img:hover:not(.no-hover):not(.zoomable) {
 .spin {
     animation: spin 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) backwards;
 	transform: perspective(1000px) ;
-}
+} */
 
 /* .noform {
 	all: revert;
@@ -256,16 +256,22 @@ button.comic:hover {
 	flex-wrap: wrap;
 }
 
-div.hbutton {
-	margin-left: 3px;
-	margin-right: 3px;
-	margin-bottom: 5px;
+div.navbar {
+	display: flex;
+	position: absolute;
+	justify-content: center;
+	/* background-color: #260023;
+	border: 4px solid #000; */
+}
+
+.navbutton {
+	width: 50px
 }
 
 div.hf-logo {
 	background-image: url("/assets/img/rmb_headerbg.svg");
 	background-repeat: no-repeat;
-	background-color: #1b0018;
+	background-color: #000;
 	width: 100%;
 	height: 50px;
 	text-align: right;
@@ -273,7 +279,6 @@ div.hf-logo {
 }
 
 .headerflex>div {
-	background-color: #260023;
 	font-size: 16px;
 	color: #ff8af5;
 	font-family: Ferrite-core_med;

@@ -56,20 +56,6 @@
                 // Start observing the target node for configured mutations
                 var config = { childList: true };
                 observer.observe(target, config);
-
-                // Add click event listeners to images in the iframe
-                iframeDocument.querySelectorAll('img').forEach(img => {
-                    img.addEventListener('click', function () {
-                        if (!this.classList.contains('spin')) {
-                            this.classList.add('spin');
-                            this.classList.add('no-hover');
-                            setTimeout(() => {
-                                this.classList.remove('spin');
-                                this.classList.remove('no-hover');
-                            }, 1000); // Duration of the animation
-                        }
-                    });
-                });
             };
         }
 
@@ -148,33 +134,37 @@
     <div class="mainflex">
         <header>
             <a id="top"></a>
+
             <div class="headerflex">
-                <div class="hf-logo"><img src="/assets/branding/rmb_logo_p.svg" height="100%" style="float: left">nov 21st<br>2024</div>
-                <div class="hbutton"><a href="/ifindex.html" target="siteframe">home</a></div>
-                <div class="hbutton"><a href="/projects.html" target="siteframe">projects</a></div>
-                <div class="hbutton"><a href="/art.html" target="siteframe">art</a></div>
-                <div class="hbutton"><a href="/blog.html" target="siteframe">blog</a></div>
-                <div class="hbutton"><a href="/misc.html" target="siteframe">misc</a></div>
-                <div class="hbutton"><button id="findButton" style="cursor: pointer; border: none; background-color: transparent; color: #ff8af5; font-family: Ferrite-core_med; font-size: 16px; padding: 0px;" onclick="findPage()">find</button></a></div>
+                <div class="hf-logo"><img src="/assets/branding/rmb_logo_p.svg" height="100%" style="float: left">nov 22nd<br>2024</div>
+                
+                <div class="navbar">
+                    <a href="/ifindex.html" target="siteframe" title="index"><img src="assets/img/btn/nav/rmb_siteicons0001.svg" class="navbutton"></a>
+                    <a href="/projects.html" target="siteframe" title="projects"><img src="assets/img/btn/nav/rmb_siteicons0002.svg" class="navbutton"></a>
+                    <a href="/art.html" target="siteframe" title="art"><img src="assets/img/btn/nav/rmb_siteicons0003.svg" class="navbutton"></a>
+                    <a href="/blog.html" target="siteframe" title="blog"><img src="assets/img/btn/nav/rmb_siteicons0004.svg" class="navbutton"></a>
+                    <a href="/misc.html" target="siteframe" title="misc"><img src="assets/img/btn/nav/rmb_siteicons0005.svg" class="navbutton"></a>
+                    <div class="hbutton"><button id="findButton" style="cursor: pointer; border: none; background-color: transparent; color: #ff8af5; font-family: Ferrite-core_med; font-size: 16px; padding: 0px;" onclick="findPage()" title="find"><img src="assets/img/btn/nav/rmb_siteicons0006.svg" class="navbutton"></button></a></div>
+                </div>
             </div>
+
             <div class="ticker-container">
                 <div class="ticker-wrapper">
                     <div class="ticker-transition">
-                        <div class="ticker-item">new series! <a href="/projects/britj/britj.html" target="siteframe">big rumble in the jungle</a> episode 1 is now avaialble to read. comes with the ability to <b>vote</b>! try it out!</div>
                         <div class="ticker-item"><b>|>| SITE NEWS |>|</b></div>
+                        <div class="ticker-item">whats up again - new site update! this one is more so a visual update - the most immediate change being the header and index have been facelifted considerably. i noticed how overbearing the older design of the home page used to be, so i've trimmed it down a bit and made things more clear with icons that i've designed myself, both for the navbar and the social links. they look nice i'd say</div>
+                        <div class="ticker-item">i also decided to get rid of the spin effect when clicking on images. it was always a weird implementation of the system and actually made it so it was impossible to right click on stuff, which was really annoying if you were to try copying an image for example. fortunately the hover still gets to exist</div>
+                        <div class="ticker-item">other than that, not much else new other than the two new project pages for <a href="/projects/cloudbox.html" target="siteframe">cloudbox</a> and <a href="/projects/sfthb.html" target="siteframe">strive for the ham burger</a>, which i've seemed to forget to mention here... well, they're there now! i also reorganized them a bit. i might consider refactoring the graphics for the buttons but right now it does the job so it probably won't be anytime soon</div>
+                        <div class="ticker-item"><b>|>| PREVIOUS NEWS |>|</b></div>
                         <div class="ticker-item">new site update: nothing too major, but i'm trying to fix up the readability of some pages. acronyms for instance now have an appropiate ABBR tag so you can hover on them to see what they actually stand for. this probably hasn't been rolled out to everything yet though and may take a few commits to do so</div>
                         <div class="ticker-item">i've also reorganized the projects page a bit, added two more, and fixed up a handful of deadlinks and stuff i've been forgetting to fix up for a while now (looking at you unnamed header on the mssb world tour project page)</div>
-                        <div class="ticker-item"><b>|>| PREVIOUS NEWS |>|</b></div>
-                        <div class="ticker-item">hey! new update! its mostly some minor visual changes, but i've added 'ryan brawl' as a new project, it's a very quick 2023 comic i made with three episodes. other than that, it's the run of the mill updating of pages around here</div>
-                        <div class="ticker-item">minor QOL changes too with the novels (ppunk and nng), they should save your position when you come back to the page...note i have not tested it fully and maybe won't actually save your spot. who knows? solve my mystery...it's using localstorage so it should probably work</div>
-                        <div class="ticker-item">o yea new favicon too i guess</div>
-                        <div class="ticker-item">also images with links on them have this cool css hover animation now -- idk how long i'll leave those there but they look cool so like WHATEVER MAN!!! most of them also spin!!!</div>
-                        <div class="ticker-item">there might be a new blog post later down the line, or adding some older projects, but i got no clue when i'll ever get around to that. maybe someday!</div>
                     </div>
                 </div>
             </div>
         </header>
-        <iframe class="siteflex" name="siteframe" id="siteframe" src="/ifindex.html"></iframe>    
+
+        <iframe class="siteflex" name="siteframe" id="siteframe" src="/ifindex.html"></iframe>
+
     </div>
 </main>
 
